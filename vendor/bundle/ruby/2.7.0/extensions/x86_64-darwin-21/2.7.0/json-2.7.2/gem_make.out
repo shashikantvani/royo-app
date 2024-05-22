@@ -1,0 +1,16 @@
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+/usr/local/opt/ruby@2.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-u62o8o sitelibdir\=./.gem.20240428-64942-u62o8o clean
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-u62o8o sitelibdir\=./.gem.20240428-64942-u62o8o
+make: Nothing to be done for `all'.
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-u62o8o sitelibdir\=./.gem.20240428-64942-u62o8o install
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-u62o8o sitelibdir\=./.gem.20240428-64942-u62o8o clean

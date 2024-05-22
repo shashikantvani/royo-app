@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-photo-view-ex/react-native-photo-view-ex-umbrella.h

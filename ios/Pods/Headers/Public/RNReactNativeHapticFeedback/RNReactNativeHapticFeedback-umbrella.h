@@ -1,0 +1,1 @@
+../../../Target Support Files/RNReactNativeHapticFeedback/RNReactNativeHapticFeedback-umbrella.h

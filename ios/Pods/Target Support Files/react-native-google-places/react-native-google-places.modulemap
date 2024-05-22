@@ -1,0 +1,6 @@
+module react_native_google_places {
+  umbrella header "react-native-google-places-umbrella.h"
+
+  export *
+  module * { export * }
+}

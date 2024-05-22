@@ -1,0 +1,1 @@
+../../../../../node_modules/@paytabs/react-native-paytabs/ios/Paymentsdk-Bridging-Header.h

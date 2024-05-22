@@ -1,0 +1,19 @@
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/usr/local/opt/ruby@2.7/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-1d6uxt5 sitelibdir\=./.gem.20240428-64942-1d6uxt5 clean
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-1d6uxt5 sitelibdir\=./.gem.20240428-64942-1d6uxt5
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-1d6uxt5 sitelibdir\=./.gem.20240428-64942-1d6uxt5 install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20240428-64942-1d6uxt5
+
+current directory: /Users/acareindore/OrderAppIos/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240428-64942-1d6uxt5 sitelibdir\=./.gem.20240428-64942-1d6uxt5 clean

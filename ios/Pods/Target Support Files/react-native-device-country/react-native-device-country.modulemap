@@ -1,0 +1,6 @@
+module react_native_device_country {
+  umbrella header "react-native-device-country-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-simple-toast/react-native-simple-toast-umbrella.h

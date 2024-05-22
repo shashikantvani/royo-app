@@ -1,0 +1,1 @@
+../../../Target Support Files/RNImageCropPicker/RNImageCropPicker-umbrella.h

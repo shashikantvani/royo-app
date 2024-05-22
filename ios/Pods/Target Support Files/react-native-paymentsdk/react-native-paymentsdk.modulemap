@@ -1,0 +1,6 @@
+module react_native_paymentsdk {
+  umbrella header "react-native-paymentsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
