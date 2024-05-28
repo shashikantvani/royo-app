@@ -147,6 +147,7 @@ export const WALLET_CREDIT = getApiUrl("/myWallet/credit");
 export const VENDOR_REGISTER = getApiUrl("/vendor/register");
 export const DRIVER_REGISTER = getApiUrl("/driver/register");
 export const CANCEL_ORDER = getApiUrl("/return-order/vendor-order-for-cancel");
+export const CANCEL_SINGLE_ORDER = getApiUrl("/return-order/vendor-order-for-cancel-service-schedule");
 export const WALLET_USER_VERIFY = getApiUrl("/wallet/transfer/user/verify");
 export const WALLET_TRANSFER_CONFIRM = getApiUrl("/wallet/transfer/confirm");
 export const VENDOR_SLOTS = getApiUrl("/vendor/slots");

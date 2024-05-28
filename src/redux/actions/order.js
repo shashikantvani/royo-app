@@ -14,6 +14,7 @@ import {
   GET_ORDER_DETAIL_FOR_BILLING,
   DISPATCHER_URL,
   CANCEL_ORDER,
+  CANCEL_SINGLE_ORDER,
   REPEAT_ORDER,
   ACCEPTREJECTDRIVERUPDATE,
   GET_VENDOR_REVENUE_DASHBOARD_DATA,
@@ -266,6 +267,18 @@ export function submitReturnOrder(data = {}, headers = {}) {
 export function cancelOrder(data = {}, headers = {}) {
   return new Promise((resolve, reject) => {
     apiPost(CANCEL_ORDER, data, headers)
+      .then((res) => {
+        resolve(res);
+      })
+      .catch((error) => {
+        reject(error);
+      });
+  });
+}
+
+export function cancelSingleOrder(data = {}, headers = {}) {
+  return new Promise((resolve, reject) => {
+    apiPost(CANCEL_SINGLE_ORDER, data, headers)
       .then((res) => {
         resolve(res);
       })
