@@ -1,0 +1,1 @@
+{"version":3,"sources":["isNotEmpty.ts"],"names":["isNotEmpty","item"],"mappings":"AAAA,OAAO,SAASA,UAAT,CAAuBC,IAAvB,EAAkD;AACvD,SAAOA,IAAI,KAAK,IAAhB;AACD","sourcesContent":["export function isNotEmpty<T>(item: T | null): item is T {\n  return item !== null;\n}\n"]}

@@ -1,0 +1,38 @@
+{
+  "name": "react-native-paymentsdk",
+  "version": "2.6.5",
+  "summary": "Paytabs React-Native Library",
+  "description": "react-native-paymentsdk",
+  "homepage": "https://github.com/github_account/react-native-paymentsdk",
+  "license": "MIT",
+  "authors": {
+    "Your Name": "yourname@email.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/github_account/react-native-paymentsdk.git",
+    "tag": "2.6.5"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreTelephony",
+    "WebKit",
+    "PassKit",
+    "SystemConfiguration",
+    "CoreLocation"
+  ],
+  "source_files": "ios/**/*.{h,c,m,swift}",
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "dependencies": {
+    "React": [
+
+    ],
+    "PayTabsSDK": [
+      "6.6.12"
+    ]
+  },
+  "swift_version": "5.0"
+}

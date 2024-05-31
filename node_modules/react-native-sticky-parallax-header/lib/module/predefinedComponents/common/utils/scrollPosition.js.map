@@ -1,0 +1,1 @@
+{"version":3,"sources":["scrollPosition.ts"],"names":["scrollPosition","headerHeight","value"],"mappings":"AAAA,OAAO,SAASA,cAAT,CAAwBC,YAAxB,EAA8CC,KAA9C,EAA6D;AAClE,SAAOD,YAAY,GAAG,IAAf,GAAsBC,KAA7B;AACD","sourcesContent":["export function scrollPosition(headerHeight: number, value: number) {\n  return headerHeight * 0.01 * value;\n}\n"]}

@@ -1,0 +1,5 @@
+module JWT {
+	umbrella header "JWT.h"
+	export *
+	module * { export * }
+}

@@ -1,0 +1,6 @@
+module react_native_select_contact {
+  umbrella header "react-native-select-contact-umbrella.h"
+
+  export *
+  module * { export * }
+}

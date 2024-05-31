@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.parseAnimatedColorProp=parseAnimatedColorProp;function parseAnimatedColorProp(animatedColorProp){'worklet';return typeof animatedColorProp==='undefined'||typeof animatedColorProp==='string'||typeof animatedColorProp==='number'||typeof animatedColorProp==='symbol'?animatedColorProp:animatedColorProp==null?void 0:animatedColorProp.value;}
+//# sourceMappingURL=parseAnimatedColorProp.js.map

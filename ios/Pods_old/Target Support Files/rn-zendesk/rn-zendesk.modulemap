@@ -1,0 +1,6 @@
+module rn_zendesk {
+  umbrella header "rn-zendesk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-google-places/react-native-google-places-umbrella.h

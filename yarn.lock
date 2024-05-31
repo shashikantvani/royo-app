@@ -9731,7 +9731,7 @@ react-native-geolocation-service@^5.3.1:
   resolved "https://registry.npmjs.org/react-native-geolocation-service/-/react-native-geolocation-service-5.3.1.tgz"
   integrity sha512-LTXPtPNmrdhx+yeWG47sAaCgQc3nG1z+HLLHlhK/5YfOgfLcAb9HAkhREPjQKPZOUx8pKZMIpdGFUGfJYtimXQ==
 
-react-native-gesture-handler@*, react-native-gesture-handler@^2.15.0, "react-native-gesture-handler@>= 1.0.0", react-native-gesture-handler@>=1.10.1:
+react-native-gesture-handler@*, react-native-gesture-handler@^2.15.0, "react-native-gesture-handler@>= 1.0.0", react-native-gesture-handler@>=1.10.1, react-native-gesture-handler@>=2.0.0:
   version "2.16.0"
   resolved "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.16.0.tgz"
   integrity sha512-1hFkx7RIfeJSyTQQ0Nkv4icFVZ5+XjQkd47OgZMBFzoB7ecL+nFSz8KLi3OCWOhq+nbHpSPlSG5VF3CQNCJpWA==
@@ -10053,7 +10053,12 @@ react-native-razorpay@^2.3.0:
   resolved "https://registry.npmjs.org/react-native-razorpay/-/react-native-razorpay-2.3.0.tgz"
   integrity sha512-xxiZCPuZmiRq5UHDr+D4OoyxEjMu0ujC+RaE+rYo938EK0Vc21dZRUVxMVP1L2WgzA8PYwmD5FWvdHNtWLQC4Q==
 
-react-native-reanimated@*, react-native-reanimated@^3.8.1, "react-native-reanimated@>= 1.0.0", react-native-reanimated@>=2.0.0, react-native-reanimated@>=2.15.0, react-native-reanimated@>=2.2.0:
+react-native-reanimated-carousel@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npmjs.org/react-native-reanimated-carousel/-/react-native-reanimated-carousel-3.5.1.tgz"
+  integrity sha512-9BBQV6JAYSQm2lV7MFtT4mzapXmW4IZO6s38gfiJL84Jg23ivGB1UykcNQauKgtHyhtW2NuZJzItb1s42lM+hA==
+
+react-native-reanimated@*, react-native-reanimated@^3.8.1, "react-native-reanimated@>= 1.0.0", react-native-reanimated@>=2.0.0, react-native-reanimated@>=2.15.0, react-native-reanimated@>=2.2.0, react-native-reanimated@>=3.0.0:
   version "3.9.0"
   resolved "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-3.9.0.tgz"
   integrity sha512-OMZV2BVmxZvm8UhlXBrESO0y/ODGTRpQRQUO7U9QXysOF9RaR8FbO6KS0x99MH19zfFTV8cLGN/vYW1dFia9Rw==
@@ -10339,7 +10344,7 @@ react-native-windows@*, "react-native-windows@^0.61.0 || ^0.62.0 || ^0.63.0 || ^
     ws "^6.2.2"
     yargs "^17.6.2"
 
-react-native@*, react-native@^*, "react-native@^0.0.0-0 || >=0.60 <1.0", "react-native@^0.61.5 || ^0.62.3 || ^0.63.2 || ^0.64.2 || ^0.65.0 || ^0.66.0 || ^0.67.0 || ^0.68.0 || ^0.69.0 || ^0.70.0 || ^0.71.0 || ^0.72.0 || ^0.73.0", react-native@^0.73.0, "react-native@> 0.50.0", "react-native@>= 0.30.0", "react-native@>= 0.50.0", "react-native@>= 0.59", "react-native@>= 0.60.0", "react-native@>= 0.60.2", "react-native@>= 0.64.3", react-native@>=0.20.0, react-native@>=0.23.1, react-native@>=0.33, react-native@>=0.40.0, react-native@>=0.42.0, react-native@>=0.46, react-native@>=0.47.0, react-native@>=0.47.1, react-native@>=0.48.4, react-native@>=0.51.0, react-native@>=0.55.4, react-native@>=0.57, react-native@>=0.57.0, react-native@>=0.58, react-native@>=0.58.4, react-native@>=0.59, react-native@>=0.59.0, react-native@>=0.60.0, react-native@>=0.61.0, react-native@>=0.64.0, react-native@>=0.65.0, react-native@>=0.66.0, react-native@>=0.69, react-native@>=0.70.0, react-native@>=0.71.0, react-native@>0.64, react-native@0.73.6:
+react-native@*, react-native@^*, "react-native@^0.0.0-0 || >=0.60 <1.0", "react-native@^0.61.5 || ^0.62.3 || ^0.63.2 || ^0.64.2 || ^0.65.0 || ^0.66.0 || ^0.67.0 || ^0.68.0 || ^0.69.0 || ^0.70.0 || ^0.71.0 || ^0.72.0 || ^0.73.0", react-native@^0.73.0, "react-native@> 0.50.0", "react-native@>= 0.30.0", "react-native@>= 0.50.0", "react-native@>= 0.59", "react-native@>= 0.60.0", "react-native@>= 0.60.2", "react-native@>= 0.64.3", react-native@>=0.20.0, react-native@>=0.23.1, react-native@>=0.33, react-native@>=0.40.0, react-native@>=0.42.0, react-native@>=0.46, react-native@>=0.47.0, react-native@>=0.47.1, react-native@>=0.48.4, react-native@>=0.51.0, react-native@>=0.55.4, react-native@>=0.57, react-native@>=0.57.0, react-native@>=0.58, react-native@>=0.58.4, react-native@>=0.59, react-native@>=0.59.0, react-native@>=0.6.0, react-native@>=0.60.0, react-native@>=0.61.0, react-native@>=0.64.0, react-native@>=0.65.0, react-native@>=0.66.0, react-native@>=0.69, react-native@>=0.70.0, react-native@>=0.71.0, react-native@>0.64, react-native@0.73.6:
   version "0.73.6"
   resolved "https://registry.npmjs.org/react-native/-/react-native-0.73.6.tgz"
   integrity sha512-oqmZe8D2/VolIzSPZw+oUd6j/bEmeRHwsLn1xLA5wllEYsZ5zNuMsDus235ONOnCRwexqof/J3aztyQswSmiaA==

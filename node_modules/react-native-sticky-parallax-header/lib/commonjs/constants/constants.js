@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var breakpoints={smallPhoneShorterEdge:320,mediumPhoneShorterEdge:414,bigPhoneShorterEdge:480};var _default={breakpoints:breakpoints};exports.default=_default;
+//# sourceMappingURL=constants.js.map

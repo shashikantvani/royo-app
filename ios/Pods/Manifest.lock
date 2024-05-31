@@ -57,7 +57,7 @@ PODS:
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
   - PayTabsSDK (6.6.12)
-  - razorpay-pod (1.3.7)
+  - razorpay-pod (1.3.8)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -1288,6 +1288,7 @@ DEPENDENCIES:
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - GoogleMaps
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
   - lottie-react-native (from `../node_modules/lottie-react-native`)
@@ -1651,7 +1652,7 @@ SPEC CHECKSUMS:
   lottie-ios: e047b1d2e6239b787cc5e9755b988869cf190494
   lottie-react-native: 2d9efc8a5ffabe688b55a1a1ac1fb94b9d971995
   PayTabsSDK: e21452eccc65457a7ca1d71632f437a5d2f51da2
-  razorpay-pod: a4c288f8bc9eaae49c167df365cfda4f5e153ee2
+  razorpay-pod: c7064a37dd15fbc0e5f26776314c9a8842df1269
   RCT-Folly: 7169b2b1c44399c76a47b5deaaba715eeeb476c0
   RCTRequired: ca1d7414aba0b27efcfa2ccd37637edb1ab77d96
   RCTTypeSafety: 678e344fb976ff98343ca61dc62e151f3a042292
@@ -1764,6 +1765,6 @@ SPEC CHECKSUMS:
   ZendeskSupportProvidersSDK: a126d360a9fdc6adfd3732a90630ea20eca9b721
   ZendeskSupportSDK: 66ea625470889f6174ab2958749bdc46fb516501
 
-PODFILE CHECKSUM: 9e094e27bc47ba2a8589fc19f05a704497466924
+PODFILE CHECKSUM: 1ceea8d0348abfa5af23129c0203c14d81564364
 
 COCOAPODS: 1.15.2

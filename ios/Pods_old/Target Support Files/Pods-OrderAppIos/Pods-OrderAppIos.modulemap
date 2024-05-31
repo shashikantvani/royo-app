@@ -1,0 +1,6 @@
+module Pods_OrderAppIos {
+  umbrella header "Pods-OrderAppIos-umbrella.h"
+
+  export *
+  module * { export * }
+}

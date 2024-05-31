@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.useResponsiveSize=useResponsiveSize;var _reactNative=require("react-native");function useResponsiveSize(){var _useWindowDimensions=(0,_reactNative.useWindowDimensions)(),height=_useWindowDimensions.height,width=_useWindowDimensions.width;function responsiveHeight(value){return height*(value/100);}function responsiveWidth(value){return width*(value/100);}return{responsiveHeight:responsiveHeight,responsiveWidth:responsiveWidth};}
+//# sourceMappingURL=useResponsiveSize.js.map

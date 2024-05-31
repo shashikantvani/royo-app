@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.StickyHeaderSectionList=void 0;var _reactNative=require("react-native");var _withStickyHeader=require("./withStickyHeader");var StickyHeaderSectionList=(0,_withStickyHeader.withStickyHeader)(_reactNative.SectionList);exports.StickyHeaderSectionList=StickyHeaderSectionList;
+//# sourceMappingURL=StickyHeaderSectionList.js.map

@@ -132,6 +132,7 @@
     "react-native-ratings": "^8.1.0",
     "react-native-razorpay": "^2.3.0",
     "react-native-reanimated": "^3.8.1",
+    "react-native-reanimated-carousel": "^3.5.1",
     "react-native-render-html": "^6.3.4",
     "react-native-responsive-fontsize": "^0.5.1",
     "react-native-restart": "^0.0.27",

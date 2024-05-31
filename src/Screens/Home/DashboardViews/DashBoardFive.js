@@ -291,7 +291,7 @@ export default function DashBoardFive({
     );
     // console.log("hfbgdh", item);
     return (
-      <TouchableOpacity activeOpacity={0.8} onPress={() =>{ console.log(item); bannerPress(item)}}>
+      <TouchableOpacity activeOpacity={0.8} onPress={() =>{ console.log(item,'banner pressed'); bannerPress(item)}}>
         <FastImage
           source={{
             uri: imageUrl,

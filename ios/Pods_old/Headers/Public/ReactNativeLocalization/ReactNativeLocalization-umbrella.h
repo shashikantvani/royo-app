@@ -1,0 +1,1 @@
+../../../Target Support Files/ReactNativeLocalization/ReactNativeLocalization-umbrella.h

@@ -1,0 +1,31 @@
+{
+  "name": "rn-zendesk",
+  "version": "3.0.0",
+  "summary": "Wrapper around the native Zendesk SDK for React Native.",
+  "license": "MIT",
+  "authors": "RB Group.aero",
+  "homepage": "https://github.com/RosterBuster/rn-zendesk",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "git+https://github.com/RosterBuster/rn-zendesk",
+    "tag": "v3.0.0"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "swift_versions": "5.0",
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+    "CLANG_ENABLE_MODULES": "YES",
+    "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES"
+  },
+  "dependencies": {
+    "React": [
+
+    ],
+    "ZendeskSupportSDK": [
+      "~> 5.4.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

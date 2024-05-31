@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.StickyHeaderScrollView=void 0;var _reactNative=require("react-native");var _withStickyHeader=require("./withStickyHeader");var StickyHeaderScrollView=(0,_withStickyHeader.withStickyHeader)(_reactNative.ScrollView);exports.StickyHeaderScrollView=StickyHeaderScrollView;
+//# sourceMappingURL=StickyHeaderScrollView.js.map

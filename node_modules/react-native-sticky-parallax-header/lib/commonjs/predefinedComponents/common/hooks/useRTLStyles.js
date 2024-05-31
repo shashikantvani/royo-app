@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.useRTLStyles=useRTLStyles;var _react=require("react");var _reactNative=require("react-native");function useRTLStyles(ltrStyle,rtlStyle,defaultStyle){return(0,_react.useMemo)(function(){return _reactNative.Platform.select({android:_reactNative.I18nManager.isRTL?rtlStyle:ltrStyle,default:defaultStyle});},[defaultStyle,ltrStyle,rtlStyle]);}
+//# sourceMappingURL=useRTLStyles.js.map
