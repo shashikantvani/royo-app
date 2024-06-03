@@ -17,12 +17,19 @@
   "source_files": [
     "ios/*.{h,mm}",
     "ios/LocationAlways/*.{h,mm}",
+    "ios/SpeechRecognition/*.{h,mm}",
     "ios/LocationWhenInUse/*.{h,mm}",
+    "ios/PhotoLibrary/*.{h,mm}",
+    "ios/Camera/*.{h,mm}",
     "ios/Contacts/*.{h,mm}",
     "ios/LocationAccuracy/*.{h,mm}"
   ],
   "frameworks": [
     "CoreLocation",
+    "Speech",
+    "Photos",
+    "PhotosUI",
+    "AVFoundation",
     "Contacts"
   ],
   "dependencies": {

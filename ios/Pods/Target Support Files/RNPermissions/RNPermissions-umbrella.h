@@ -12,7 +12,10 @@
 
 #import "RNPermissions.h"
 #import "RNPermissionHandlerLocationAlways.h"
+#import "RNPermissionHandlerSpeechRecognition.h"
 #import "RNPermissionHandlerLocationWhenInUse.h"
+#import "RNPermissionHandlerPhotoLibrary.h"
+#import "RNPermissionHandlerCamera.h"
 #import "RNPermissionHandlerContacts.h"
 #import "RNPermissionHandlerLocationAccuracy.h"
 

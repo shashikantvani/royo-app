@@ -25,7 +25,7 @@ setup_permissions([
 # 'Bluetooth',
 # 'Calendars',
 # 'CalendarsWriteOnly',
-# 'Camera',
+'Camera',
 'Contacts',
 # 'FaceID',
 'LocationAccuracy',
@@ -35,11 +35,11 @@ setup_permissions([
 # 'Microphone',
 # 'Motion',
 # 'Notifications',
-# 'PhotoLibrary',
+'PhotoLibrary',
 # 'PhotoLibraryAddOnly',
 # 'Reminders',
 # 'Siri',
-# 'SpeechRecognition',
+'SpeechRecognition',
 # 'StoreKit',
 ])
 
