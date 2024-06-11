@@ -7,7 +7,7 @@ import {
   View,
   Text,
 } from 'react-native';
-// import CountryPicker, {Flag} from 'react-native-country-picker-modal';
+import CountryPicker, {Flag} from 'react-native-country-picker-modal';
 import {useSelector} from 'react-redux';
 import imagePath from '../constants/imagePath';
 import colors from '../styles/colors';
@@ -183,11 +183,7 @@ const PhoneNumberInputWithUnderline = ({
         }}
       /> */}
       {countryPickerModalVisible && (
-      
-        <></>
-      )}
-
-        {/* <CountryPicker
+        <CountryPicker
           withCallingCode={callingCode}
           cca2={cca2}
           visible={countryPickerModalVisible}
@@ -195,7 +191,8 @@ const PhoneNumberInputWithUnderline = ({
           withFilter
           onClose={_onCountryPickerModalClose}
           onSelect={_onCountryChange}
-        /> */}
+        />
+      )}
     </View>
   );
 };

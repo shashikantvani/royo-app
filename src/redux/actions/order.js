@@ -276,6 +276,7 @@ export function cancelOrder(data = {}, headers = {}) {
   });
 }
 
+
 export function cancelSingleOrder(data = {}, headers = {}) {
   return new Promise((resolve, reject) => {
     apiPost(CANCEL_SINGLE_ORDER, data, headers)
@@ -287,7 +288,6 @@ export function cancelSingleOrder(data = {}, headers = {}) {
       });
   });
 }
-
 export function allPendingOrders(query, data = {}, headers = {}) {
   return new Promise((resolve, reject) => {
     apiGet(MY_PENDING_ORDERS + query, data, headers)

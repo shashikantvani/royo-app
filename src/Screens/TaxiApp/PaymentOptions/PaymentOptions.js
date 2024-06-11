@@ -1,8 +1,8 @@
-// import {
-//   StripeProvider,
-//   CardField,
-//   createToken,
-// } from '@stripe/stripe-react-native';
+import {
+  StripeProvider,
+  CardField,
+  createToken,
+} from '@stripe/stripe-react-native';
 import React, {useEffect, useState} from 'react';
 import {
   FlatList,
@@ -225,14 +225,7 @@ const PaymentOptions = ({navigation, route}) => {
           selectedPaymentMethod?.off_site == 0 &&
           selectedPaymentMethod?.id === 4
         ) && (
-         
-          <></>
-        )}
-      </View>
-    );
-  };
-
-   {/* <StripeProvider
+          <StripeProvider
             publishableKey={
               appData?.profile?.preferences?.stripe_publishable_key
             }
@@ -261,7 +254,12 @@ const PaymentOptions = ({navigation, route}) => {
                 Keyboard.dismiss();
               }}
             />
-          </StripeProvider> */}
+          </StripeProvider>
+        )}
+      </View>
+    );
+  };
+
   return (
     <WrapperContainer
       bgColor={isDarkMode ? MyDarkTheme.colors.background : colors.white}

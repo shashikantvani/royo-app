@@ -41,15 +41,15 @@ import {MyDarkTheme} from '../../styles/theme';
 import {showError, showSuccess} from '../../utils/helperFunctions';
 import ListEmptySubscriptions from './ListEmptySubscriptions';
 import stylesFun from './styles';
-// import {
-//   CardField,
-//   createToken,
-//   initStripe,
-//   StripeProvider,
-//   handleCardAction,
-//   createPaymentMethod,
-//   confirmPayment,
-// } from '@stripe/stripe-react-native';
+import {
+  CardField,
+  createToken,
+  initStripe,
+  StripeProvider,
+  handleCardAction,
+  createPaymentMethod,
+  confirmPayment,
+} from '@stripe/stripe-react-native';
 export default function Subscriptions2({navigation, route}) {
   //   console.log(route, 'route>>>');
   const paramData = route?.params;
@@ -385,7 +385,7 @@ export default function Subscriptions2({navigation, route}) {
           selectedPaymentMethod?.id == item?.id &&
           selectedPaymentMethod?.id == 4 && (
             <View>
-              {/* <CardField
+              <CardField
                 postalCodeEnabled={false}
                 placeholder={{
                   number: '4242 4242 4242 4242',
@@ -406,9 +406,7 @@ export default function Subscriptions2({navigation, route}) {
                 onBlur={() => {
                   Keyboard.dismiss();
                 }}
-              /> */}
-
-              <></>
+              />
             </View>
           )}
         {!!(
@@ -1021,7 +1019,7 @@ export default function Subscriptions2({navigation, route}) {
         centerTitle={strings.SUBSCRIPTION}
         textStyle={{fontSize: textScale(14)}}
       />
-      {/* <StripeProvider
+      <StripeProvider
         publishableKey={preferences?.stripe_publishable_key}
         merchantIdentifier="merchant.identifier">
         <View
@@ -1088,7 +1086,7 @@ export default function Subscriptions2({navigation, route}) {
               height: height / 8,
               justifyContent: 'flex-end',
             }}>
-             <PayWithFlutterwave
+            {/* <PayWithFlutterwave
               onAbort={() =>
                 updateState({isModalVisibleForPayFlutterWave: false})
               }
@@ -1105,10 +1103,10 @@ export default function Subscriptions2({navigation, route}) {
                 currency: currencies?.primary_currency?.iso_code,
                 payment_options: 'card',
               }}
-            /> *
+            /> */}
           </View>
         </Modal>
-      </StripeProvider> */}
+      </StripeProvider>
     </WrapperContainer>
   );
 }

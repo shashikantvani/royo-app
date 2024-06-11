@@ -1,10 +1,10 @@
 import { useNavigation } from '@react-navigation/native';
 import React, { useEffect, useRef, useState } from 'react';
-import { Image, Text, StyleSheet, TouchableOpacity, View,Platform } from 'react-native';
+import { Image, Text, StyleSheet, TouchableOpacity, View } from 'react-native';
 // import { useDarkMode } from 'react-native-dark-mode';
 import Geocoder from 'react-native-geocoding';
 import Geolocation from 'react-native-geolocation-service';
-import MapView, { PROVIDER_GOOGLE,PROVIDER_DEFAULT, MarkerAnimated } from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE, MarkerAnimated } from 'react-native-maps';
 import { useSelector } from 'react-redux';
 import GradientButton from '../Components/GradientButton';
 import imagePath from '../constants/imagePath';
@@ -210,7 +210,7 @@ export default function SelctFromMap({
     <>
       <MapView
         ref={mapRef}
-        provider={Platform.OS === 'android' ? PROVIDER_GOOGLE : PROVIDER_DEFAULT} // remove if not using Google Maps
+        provider={PROVIDER_GOOGLE} // remove if not using Google Maps
         style={{
           ...StyleSheet.absoluteFillObject,
           height: height,

@@ -38,7 +38,6 @@ export function initApp(
     console.log(headers, 'headersheadersheaders');
     apiPost(APP_INITIAL_SETTINGS, data, headers)
       .then(async (res) => {
-        console.log(res,'header response shashi')
         let data = res?.data;
 
         const currencies = !!data?.currencies

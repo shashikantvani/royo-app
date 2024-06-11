@@ -185,7 +185,6 @@ export default function Home({ route, navigation }) {
   );
 
   useEffect(() => {
-    console.log('chekLocationPermission')
     chekLocationPermission(true)
       .then((result) => {
         if (result !== "goback" && result == "granted") {

@@ -360,6 +360,23 @@ export default function Settings({ route, navigation }) {
     }
   }
 
+  const [curropen,Setcurropen] = useState(false)
+  const setCurrOpen = async (open) => {
+    console.log(open,'setopen');
+    Setcurropen(open)
+    // this.setState({
+    //   open
+    // });
+  } 
+  
+  const [langopen,Setlangopen] = useState(false)
+  const setLangOpen = async (open) => {
+    Setlangopen(open)
+    console.log(open,'setopen');
+    // this.setState({
+    //   open
+    // });
+  }
   return (
     <WrapperContainer
       bgColor={
@@ -550,6 +567,10 @@ export default function Settings({ route, navigation }) {
                 appCurrencies?.primary_currency?.label ||
                 ''
               }
+              value={appCurrencies?.primary_currency?.name ||
+                appCurrencies?.primary_currency?.label ||
+                ''}
+
               containerStyle={{ height: 40, marginTop: moderateScaleVertical(5) }}
               style={{
                 backgroundColor: isDarkMode
@@ -557,6 +578,7 @@ export default function Settings({ route, navigation }) {
                   : colors.greyColor1,
                 marginHorizontal: moderateScale(20),
                 flexDirection: 'row',
+                width:width - moderateScale(40)
               }}
               labelStyle={{
                 color: isDarkMode ? MyDarkTheme.colors.text : colors.textGrey,
@@ -565,18 +587,21 @@ export default function Settings({ route, navigation }) {
               itemStyle={{
                 justifyContent: 'flex-start',
               }}
-              dropDownStyle={{
+              dropDownContainerStyle={{
                 backgroundColor: isDarkMode
                   ? MyDarkTheme.colors.lightDark
                   : colors.greyColor1,
-                height: 120,
+                  minHeight: moderateScaleVertical(40),
+                maxHeight: moderateScaleVertical(145),
                 width: width - moderateScale(40),
                 alignSelf: 'center',
                 zIndex: 5000,
               }}
               zIndex={5000}
               arrowColor={isDarkMode ? MyDarkTheme.colors.text : colors.black}
-              onChangeItem={(item) => updateCurrency(item)}
+              onChangeValue={(item) => updateCurrency(item)}
+              setOpen={setCurrOpen}
+              open={curropen}
             />
 
             <View
@@ -594,6 +619,7 @@ export default function Settings({ route, navigation }) {
                 {strings.LANGUAGES}
               </Text>
             </View>
+            {console.log(appLanguages.all_languages,'appLanguages.all_languagessss')}
             <DropDownPicker
               items={appLanguages.all_languages}
               defaultValue={
@@ -602,6 +628,10 @@ export default function Settings({ route, navigation }) {
                 appLanguages?.primary_language?.label ||
                 ''
               }
+              value={appLanguages?.primary_language?.nativeName ||
+                appLanguages?.primary_language?.name ||
+                appLanguages?.primary_language?.label ||
+                ''}
               containerStyle={{
                 height: 40,
                 marginTop: moderateScaleVertical(5),
@@ -614,6 +644,7 @@ export default function Settings({ route, navigation }) {
                 marginHorizontal: moderateScale(20),
                 flexDirection: 'row',
                 zIndex: 1000,
+                width:width - moderateScale(40)
               }}
               itemStyle={{
                 justifyContent: 'flex-start',
@@ -622,7 +653,7 @@ export default function Settings({ route, navigation }) {
                 color: isDarkMode ? MyDarkTheme.colors.text : colors.textGrey,
                 textAlign: 'left',
               }}
-              dropDownStyle={{
+              dropDownContainerStyle={{
                 backgroundColor: isDarkMode
                   ? MyDarkTheme.colors.lightDark
                   : colors.greyColor1,
@@ -633,7 +664,12 @@ export default function Settings({ route, navigation }) {
                 alignSelf: 'center',
               }}
               arrowColor={isDarkMode ? MyDarkTheme.colors.text : colors.black}
-              onChangeItem={(item) => updateLanguage(item)}
+              // onChangeValue={(item) => updateLanguage(item)}
+              onSelectItem={(value) => {
+  updateLanguage(value)
+}}
+              setOpen={setLangOpen}
+              open={langopen}
             />
             <View
               style={{
@@ -739,12 +775,17 @@ export default function Settings({ route, navigation }) {
                 backgroundColor: isDarkMode
                   ? MyDarkTheme.colors.lightDark
                   : colors.greyColor1,
+                  color: isDarkMode ? MyDarkTheme.colors.text : colors.textGrey,
                 marginHorizontal: moderateScale(20),
                 flexDirection: 'row',
                 zIndex: 1000,
               }}
+              textStyle = {{
+                color: isDarkMode ? MyDarkTheme.colors.text : colors.textGrey,
+              }}
               itemStyle={{
                 justifyContent: 'flex-start',
+                color: isDarkMode ? MyDarkTheme.colors.text : colors.textGrey,
               }}
               labelStyle={{
                 color: isDarkMode ? MyDarkTheme.colors.text : colors.textGrey,
@@ -760,7 +801,12 @@ export default function Settings({ route, navigation }) {
                 width: width - moderateScale(40),
                 alignSelf: 'center',
               }}
-              arrowColor={isDarkMode ? MyDarkTheme.colors.text : colors.black}
+              arrowIconContainerStyle={{
+                backgroundColor: isDarkMode
+                  ? MyDarkTheme.colors.lightDark
+                  : colors.greyColor1,
+                color: isDarkMode ? MyDarkTheme.colors.text : colors.black,
+              }}
               onChangeItem={(item) => updateLanguage(item)}
             />
           </View>

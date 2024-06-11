@@ -1,4 +1,4 @@
-// import {CardField, createToken, initStripe} from '@stripe/stripe-react-native';
+import {CardField, createToken, initStripe} from '@stripe/stripe-react-native';
 import React, {createRef, useEffect, useState} from 'react';
 import {
   FlatList,
@@ -322,10 +322,7 @@ export default function Subscriptions({navigation, route}) {
         {selectedPaymentMethod &&
           selectedPaymentMethod?.id == item.id &&
           selectedPaymentMethod?.off_site != 1 && (
-          
-            <></>
-          )}
-            {/* <CardField
+            <CardField
               postalCodeEnabled={true}
               placeholder={{
                 number: '4242 4242 4242 4242',
@@ -346,7 +343,8 @@ export default function Subscriptions({navigation, route}) {
               onBlur={() => {
                 Keyboard.dismiss();
               }}
-            /> */}
+            />
+          )}
       </>
     );
   };

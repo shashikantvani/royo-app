@@ -58,11 +58,11 @@ export default function Routes() {
             // <>{console.log(appSessionInfo,'authStack')}</>
             AuthStack(Stack, appStyle)
           )}
-          {/* {CourierStack(Stack)} */}
+          {CourierStack(Stack)}
 
-          {/* {TaxiAppStack(Stack)} */}
+          {TaxiAppStack(Stack)}
 
-          {/* <Stack.Screen
+          <Stack.Screen
             name={navigationStrings.CHAT_SCREEN}
             component={ChatScreen}
             options={{ headerShown: false }}
@@ -82,7 +82,7 @@ export default function Routes() {
             name={navigationStrings.TABROUTESVENDORNEW}
             component={TabRoutesVendorNewTemplate}
             options={{ headerShown: false, gestureEnabled: false }}
-          /> */}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     // </AppearanceProvider>

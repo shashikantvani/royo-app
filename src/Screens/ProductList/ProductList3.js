@@ -2,7 +2,7 @@ import BottomSheet, { BottomSheetScrollView } from "@gorhom/bottom-sheet";
 import { BlurView } from "@react-native-community/blur";
 // import Clipboard from "@react-native-community/clipboard";
 import Clipboard from '@react-native-clipboard/clipboard';
-import  { cloneDeep, debounce } from "lodash";
+import _, { cloneDeep, debounce } from "lodash";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import {
   Alert,

@@ -1,4 +1,4 @@
-// import {CardField, createToken, initStripe} from '@stripe/stripe-react-native';
+import {CardField, createToken, initStripe} from '@stripe/stripe-react-native';
 
 import React, {useEffect, useState} from 'react';
 import {
@@ -283,7 +283,7 @@ export default function AllPaymentMethods({navigation, route}) {
           selectedPaymentMethod?.id === 4
         ) && (
           <View>
-            {/* <CardField
+            <CardField
               postalCodeEnabled={false}
               placeholder={{
                 number: '4242 4242 4242 4242',
@@ -306,8 +306,7 @@ export default function AllPaymentMethods({navigation, route}) {
               onBlur={() => {
                 Keyboard.dismiss();
               }}
-            /> */}
-            <></>
+            />
           </View>
         )}
         {!!(

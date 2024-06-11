@@ -34,7 +34,7 @@ enum class RetrieveSetupIntentErrorType {
 }
 
 enum class PaymentSheetErrorType {
-  Failed, Canceled
+  Failed, Canceled, Timeout
 }
 
 enum class GooglePayErrorType {
@@ -42,6 +42,8 @@ enum class GooglePayErrorType {
 }
 
 class PaymentSheetAppearanceException(message: String) : Exception(message)
+
+class PaymentSheetException(message: String) : Exception(message)
 
 internal fun mapError(code: String, message: String?, localizedMessage: String?, declineCode: String?, type: String?, stripeErrorCode: String?): WritableMap {
   val map: WritableMap = WritableNativeMap()

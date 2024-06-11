@@ -1196,15 +1196,7 @@ export default function ProductDetail({ route, navigation }) {
                   }}
                 >
                   {/* <View style={{ flex: 0.2 }}><Image source={imagePath.fav} /></View> */}
-                  <View 
-                  style={{ 
-                    // flex: 1, 
-                  alignItems: "center",
-                  // height:height-300
-                  height:moderateScale(250),
-                  width:width
-                   }}
-                  >
+                  <View style={{ flex: 1, alignItems: "center" }}>
                     <Banner2
                       autoPlay={false}
                       resizeMode="contain"

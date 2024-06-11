@@ -301,14 +301,13 @@ export default function ContactUs({navigation}) {
           multiline={true}
           textInputStyle={{fontFamily: fontFamily.regular}}
         />
-        <GradientButton
+        {/* <GradientButton
           textStyle={styles.textStyle}
-          colorsArray={[themeColors.primary_color, themeColors.primary_color]}
           onPress={saveUserInfo}
           marginTop={moderateScaleVertical(50)}
           marginBottom={moderateScaleVertical(50)}
           btnText={strings.SUBMIT}
-        />
+        /> */}
       </View>
     );
   };

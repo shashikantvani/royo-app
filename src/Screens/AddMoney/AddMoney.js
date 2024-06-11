@@ -1,13 +1,13 @@
 // import stripe from 'tipsi-stripe';
-// import {
-//   CardField,
-//   createToken,
-//   initStripe,
-//   StripeProvider,
-//   handleCardAction,
-//   createPaymentMethod,
-//   confirmPayment,
-// } from '@stripe/stripe-react-native';
+import {
+  CardField,
+  createToken,
+  initStripe,
+  StripeProvider,
+  handleCardAction,
+  createPaymentMethod,
+  confirmPayment,
+} from '@stripe/stripe-react-native';
 import queryString from 'query-string';
 import React, {useEffect, useState} from 'react';
 import {
@@ -250,11 +250,7 @@ export default function AddMoney({navigation}) {
           selectedPaymentMethod?.off_site == 0 &&
           selectedPaymentMethod?.id === 4 && (
             <View>
-             <></>
-            </View>
-          )}
-
-          {/*  <CardField
+              <CardField
                 postalCodeEnabled={false}
                 placeholder={{
                   number: '4242 4242 4242 4242',
@@ -278,7 +274,9 @@ export default function AddMoney({navigation}) {
                 onBlur={() => {
                   Keyboard.dismiss();
                 }}
-              /> */}
+              />
+            </View>
+          )}
 
         {selectedPaymentMethod &&
           selectedPaymentMethod?.id == item.id &&
@@ -926,14 +924,13 @@ export default function AddMoney({navigation}) {
             : {backgroundColor: Colors.white}
         }
       />
-        {/* <StripeProvider
+      {preferences?.stripe_publishable_key ? (
+        <StripeProvider
           publishableKey={preferences?.stripe_publishable_key}
           curr
           merchantIdentifier="merchant.identifier">
           {mainView()}
-        </StripeProvider> */}
-      {preferences?.stripe_publishable_key ? (
-      <></>
+        </StripeProvider>
       ) : (
         mainView()
       )}

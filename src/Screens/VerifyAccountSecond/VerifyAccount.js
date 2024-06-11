@@ -24,7 +24,7 @@ import PhoneNumberInput from '../../Components/PhoneNumberInput';
 import colors from '../../styles/colors';
 import {TextInput} from 'react-native-gesture-handler';
 import SmoothPinCodeInput from 'react-native-smooth-pincode-input';
-// import CountryPicker, {Flag} from 'react-native-country-picker-modal';
+import CountryPicker, {Flag} from 'react-native-country-picker-modal';
 import {loaderOne} from '../../Components/Loaders/AnimatedLoaderFiles';
 import validations from '../../utils/validations';
 import {useNavigation} from '@react-navigation/native';

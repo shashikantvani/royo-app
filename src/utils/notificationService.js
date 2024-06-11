@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-// import messaging from '@react-native-firebase/messaging';
+import messaging from '@react-native-firebase/messaging';
 import {Platform} from 'react-native';
 import PushNotification, {Importance} from 'react-native-push-notification';
 import {navigate} from '../navigation/NavigationService';
@@ -11,31 +11,31 @@ export async function requestUserPermission() {
   // if (Platform.OS == 'ios') {
   //     await messaging().registerDeviceForRemoteMessages();
   // }
-  // const authStatus = await messaging().requestPermission();
-  // const enabled =
-  //   authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
-  //   authStatus === messaging.AuthorizationStatus.PROVISIONAL;
-  // if (enabled) {
-  //   // console.log('Authorization status:', authStatus);
-  //   getFcmToken();
-  // }
+  const authStatus = await messaging().requestPermission();
+  const enabled =
+    authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
+    authStatus === messaging.AuthorizationStatus.PROVISIONAL;
+  if (enabled) {
+    // console.log('Authorization status:', authStatus);
+    getFcmToken();
+  }
 }
 
 const getFcmToken = async () => {
   let fcmToken = await AsyncStorage.getItem('fcmToken');
   // console.log(fcmToken, 'the old token');
   if (!fcmToken) {
-    // try {
-    //   const fcmToken = await messaging().getToken();
-    //   if (fcmToken) {
-    //     // console.log(fcmToken, 'the new genrated token');
-    //     // user has a device token
-    //     await AsyncStorage.setItem('fcmToken', fcmToken);
-    //   }
-    // } catch (error) {
-    //   // console.log(error, 'error in fcmToken');
-    //   // showError(error.message)
-    // }
+    try {
+      const fcmToken = await messaging().getToken();
+      if (fcmToken) {
+        // console.log(fcmToken, 'the new genrated token');
+        // user has a device token
+        await AsyncStorage.setItem('fcmToken', fcmToken);
+      }
+    } catch (error) {
+      // console.log(error, 'error in fcmToken');
+      // showError(error.message)
+    }
   }
 };
 
@@ -89,13 +89,13 @@ export const notificationListener = async () => {
     popInitialNotification: true,
   });
 
-  // messaging().onNotificationOpenedApp(remoteMessage => {
-  //   // console.log('tap on notification',remoteMessage);
-  //   const {data} = remoteMessage
-  //   if(!!data?.room_id){
-  //   navigate(navigationStrings.CHAT_SCREEN, { data: { _id: data?.room_id, room_id: data?.room_id_text } })
-  // }
-  // });
+  messaging().onNotificationOpenedApp(remoteMessage => {
+    // console.log('tap on notification',remoteMessage);
+    const {data} = remoteMessage
+    if(!!data?.room_id){
+    navigate(navigationStrings.CHAT_SCREEN, { data: { _id: data?.room_id, room_id: data?.room_id_text } })
+  }
+  });
 
   createDefaultChannels();
 
@@ -138,47 +138,47 @@ export const notificationListener = async () => {
     );
   }
 
-  // messaging()
-  //   .getInitialNotification()
-  //   .then((remoteMessage) => {
-  //     if (remoteMessage) {
-  //       // console.log('remote message inital notification', remoteMessage);
-  //       const {data, messageId, notification} = remoteMessage;
-  //       if (
-  //         Platform.OS == 'android' &&
-  //         notification.android.sound == 'notification'
-  //       ) {
-  //         actions.isVendorNotification(true);
-  //       }
-  //       if (Platform.OS == 'ios' && notification.sound == 'notification.wav') {
-  //         actions.isVendorNotification(true);
-  //       }
-  //     }
-  //   });
+  messaging()
+    .getInitialNotification()
+    .then((remoteMessage) => {
+      if (remoteMessage) {
+        // console.log('remote message inital notification', remoteMessage);
+        const {data, messageId, notification} = remoteMessage;
+        if (
+          Platform.OS == 'android' &&
+          notification.android.sound == 'notification'
+        ) {
+          actions.isVendorNotification(true);
+        }
+        if (Platform.OS == 'ios' && notification.sound == 'notification.wav') {
+          actions.isVendorNotification(true);
+        }
+      }
+    });
 
   return null;
 };
 
 const _openApp = () => {
-  // messaging().onNotificationOpenedApp((remoteMessage) => {
-  //   // console.log(
-  //   //   'Notification caused app to open from background state bla bla:',
-  //   //   remoteMessage,
-  //   // );
-  //   const {data, messageId, notification} = remoteMessage;
+  messaging().onNotificationOpenedApp((remoteMessage) => {
+    // console.log(
+    //   'Notification caused app to open from background state bla bla:',
+    //   remoteMessage,
+    // );
+    const {data, messageId, notification} = remoteMessage;
 
-  //   manageRedirections(data);
+    manageRedirections(data);
 
-  //   if (
-  //     Platform.OS == 'android' &&
-  //     notification.android.sound == 'notification'
-  //   ) {
-  //     actions.isVendorNotification(true);
-  //   }
-  //   if (Platform.OS == 'ios' && notification.sound == 'notification.wav') {
-  //     actions.isVendorNotification(true);
-  //   }
-  // });
+    if (
+      Platform.OS == 'android' &&
+      notification.android.sound == 'notification'
+    ) {
+      actions.isVendorNotification(true);
+    }
+    if (Platform.OS == 'ios' && notification.sound == 'notification.wav') {
+      actions.isVendorNotification(true);
+    }
+  });
   // console.log('i am here>>>>>');
 };
 

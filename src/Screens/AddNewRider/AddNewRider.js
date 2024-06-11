@@ -29,7 +29,7 @@ import {
   textScale,
 } from '../../styles/responsiveSize';
 import { MyDarkTheme } from '../../styles/theme';
-// import CountryPicker, { Flag } from 'react-native-country-picker-modal';
+import CountryPicker, { Flag } from 'react-native-country-picker-modal';
 import stylesFun from './styles';
 import { getColorCodeWithOpactiyNumber, showError } from '../../utils/helperFunctions';
 import actions from '../../redux/actions';

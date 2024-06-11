@@ -102,7 +102,7 @@ export default function DashBoardFive({
   const appMainData = useSelector((state) => state?.home?.appMainData);
   let businessType = appData?.profile?.preferences?.business_type || null;
   const allCategory = appMainData?.categories;
-  console.log(appMainData, "appDtaa");
+  // console.log(appMainData, "appDtaa");
   const checkForBrand =
     allCategory &&
     allCategory.find((x) => x?.redirect_to == staticStrings.BRAND);
@@ -219,7 +219,7 @@ export default function DashBoardFive({
   };
 
   useEffect(() => {
-    // checkAgeModalPermission();
+    checkAgeModalPermission();
   }, []);
 
   console.log(userData, "userData>>");
@@ -291,7 +291,7 @@ export default function DashBoardFive({
     );
     // console.log("hfbgdh", item);
     return (
-      <TouchableOpacity activeOpacity={0.8} onPress={() =>{ console.log(item,'banner pressed'); bannerPress(item)}}>
+      <TouchableOpacity activeOpacity={0.8} onPress={() => bannerPress(item)}>
         <FastImage
           source={{
             uri: imageUrl,
@@ -724,7 +724,7 @@ export default function DashBoardFive({
           >
             {`${appData?.profile?.preferences?.vendors_nomenclature}`}
           </Text>
-         {console.log(vendorsData && vendorsData.length,'vendorsData && vendorsData.length')}
+         {/* {console.log(vendorsData && vendorsData.length,'vendorsData && vendorsData.length')} */}
           {!!vendorsData && vendorsData.length > 1 && (
             <TouchableOpacity
               style={{ marginHorizontal: moderateScale(4) }}

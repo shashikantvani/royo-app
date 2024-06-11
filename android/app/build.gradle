@@ -50,7 +50,7 @@ react {
     //   The list of flags to pass to the Hermes compiler. By default is "-O", "-output-source-map"
     // hermesFlags = ["-O", "-output-source-map"]
 }
-
+apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
@@ -73,14 +73,22 @@ android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.orderappios"
+    namespace "com.orderapp"
     defaultConfig {
-        applicationId "com.orderappios"
+        applicationId "com.orderapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
+         compileSdkVersion rootProject.ext.compileSdkVersion
+        compileSdk rootProject.ext.compileSdkVersion
+   
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary true
+        resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
+
     }
     signingConfigs {
         debug {
@@ -107,6 +115,13 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation("com.facebook.react:flipper-integration")
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+    implementation "com.google.android.gms:play-services-base:+"
+    implementation "com.google.android.gms:play-services-location:+"
+    implementation "com.facebook.react:react-native:+"  // From node_modules
+
+    
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
@@ -116,3 +131,4 @@ dependencies {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply plugin: 'com.google.gms.google-services'

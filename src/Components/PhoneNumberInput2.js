@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {I18nManager, Image, TouchableOpacity, View, Text} from 'react-native';
-// import CountryPicker, {Flag} from 'react-native-country-picker-modal';
+import CountryPicker, {Flag} from 'react-native-country-picker-modal';
 import {useSelector} from 'react-redux';
 import imagePath from '../constants/imagePath';
 import colors from '../styles/colors';
@@ -127,11 +127,7 @@ const PhoneNumberInput2 = ({
         }}
       /> */}
       {countryPickerModalVisible && (
-
-        <></>
-      )}
-
-              {/* <CountryPicker
+        <CountryPicker
           cca2={cca2}
           withCallingCode={true}
           visible={countryPickerModalVisible}
@@ -140,7 +136,8 @@ const PhoneNumberInput2 = ({
           countryCode={callingCode}
           onClose={_onCountryPickerModalClose}
           onSelect={_onCountryChange}
-        /> */}
+        />
+      )}
     </View>
   );
 };

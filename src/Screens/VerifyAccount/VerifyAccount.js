@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-// import CountryPicker, {Flag} from 'react-native-country-picker-modal';
+import CountryPicker, {Flag} from 'react-native-country-picker-modal';
 // import {useDarkMode} from 'react-native-dark-mode';
 import DeviceCountry from 'react-native-device-country';
 import {TextInput} from 'react-native-gesture-handler';
@@ -421,10 +421,7 @@ export default function VerifyAccount({navigation, route}) {
         )}
       </View>
       {!!countryPickerModalVisible && (
-      
-        <></>
-      )}
-        {/* <CountryPicker
+        <CountryPicker
           cca2={cca2}
           visible={countryPickerModalVisible}
           withFlagButton={false}
@@ -433,7 +430,8 @@ export default function VerifyAccount({navigation, route}) {
           onSelect={_onCountryChange}
           closeButtonImage={imagePath.closeButton}
           withCallingCode={callingCode}
-        /> */}
+        />
+      )}
       <KeyboardAwareScrollView
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"

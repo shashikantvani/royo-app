@@ -1,9 +1,9 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
 // import Clipboard from '@react-native-community/clipboard';
 import Clipboard from '@react-native-clipboard/clipboard';
 import NetInfo from '@react-native-community/netinfo';
-// import {GoogleSignin} from '@react-native-google-signin/google-signin';
-import React, {useEffect, useRef, useState} from 'react';
+import {GoogleSignin} from '@react-native-google-signin/google-signin';
+import React, {useEffect, useRef, useState,AsyncStorage} from 'react';
 import {
   Linking,
   Platform,
@@ -34,7 +34,7 @@ import types from './src/redux/types';
 import PrinterScreen from './src/Screens/PrinterConnection/PrinterScreen';
 import colors from './src/styles/colors';
 import fontFamily from './src/styles/fontFamily';
-// import messaging from '@react-native-firebase/messaging';
+import messaging from '@react-native-firebase/messaging';
 import 'react-native-gesture-handler';
 import {
   moderateScale,
@@ -53,21 +53,12 @@ import {MenuProvider} from 'react-native-popup-menu';
 import {getBundleId} from 'react-native-device-info';
 import {appIds} from './src/utils/constants/DynamicAppKeys';
 import socketServices from './src/utils/scoketService';
-// import firebase from '@react-native-firebase/app';
+
 let CodePushOptions = {checkFrequency: codePush.CheckFrequency.MANUAL};
 
-// if (!firebase.apps.length) {
-//   firebase.initializeApp({ apiKey: 'AIzaSyAKxlO9OKIncFrbcb1tSpQgbfnY64Ou6sk',
-//   authDomain: 'royo-order-version2.firebaseapp.com',
-//   databaseURL: 'https://royo-order-version2.firebaseio.com',
-//   projectId: 'royo-order-version2',
-//   storageBucket: 'royo-order-version2.appspot.com',
-//   appId: '1:1073948422654:ios:dc0471afc0e5c629c410af',
-//   messagingSenderId: '1073948422654' });
-// }
 const App = () => {
 
-   
+
 
   const [progress, setProgress] = useState(false);
   const [primaryColor, setPrimaryColor] = useState('black');
@@ -173,7 +164,7 @@ const App = () => {
   useEffect(() => {
     (async () => {
       const userData = await getUserData();
-      // notificationConfig();
+      notificationConfig();
       const {dispatch} = store;
       if (userData && !!userData.auth_token) {
         dispatch({
@@ -296,7 +287,7 @@ const App = () => {
         });
       }
       //Gamil configure
-      // GoogleSignin.configure();
+      GoogleSignin.configure();
 
       // clip copy issue
       if (__DEV__) {
@@ -319,55 +310,55 @@ const App = () => {
   // let isVal = store.getState().pendingNotifications.isVendorNotification
 
   useEffect(() => {
-    // codePush.sync(
-    //   {
-    //     installMode: codePush.InstallMode.IMMEDIATE,
-    //     updateDialog: true,
-    //   },
-    //   codePushStatusDidChange,
-    //   codePushDownloadDidProgress,
-    // );
+    codePush.sync(
+      {
+        installMode: codePush.InstallMode.IMMEDIATE,
+        updateDialog: true,
+      },
+      codePushStatusDidChange,
+      codePushDownloadDidProgress,
+    );
   }, []);
 
   function codePushStatusDidChange(syncStatus) {
-    // switch (syncStatus) {
-    //   case codePush.SyncStatus.CHECKING_FOR_UPDATE:
-    //     console.log('codepush status Checking for update');
-    //     break;
-    //   case codePush.SyncStatus.DOWNLOADING_PACKAGE:
-    //     console.log('codepush status Downloading package');
-    //     break;
-    //   case codePush.SyncStatus.AWAITING_USER_ACTION:
-    //     console.log('codepush status Awaiting user action');
-    //     break;
-    //   case codePush.SyncStatus.INSTALLING_UPDATE:
-    //     console.log('codepush status Installing update');
-    //     setProgress(false);
-    //     break;
-    //   case codePush.SyncStatus.UP_TO_DATE:
-    //     console.log('codepush status App up to date');
-    //     setProgress(false);
-    //     break;
-    //   case codePush.SyncStatus.UPDATE_IGNORED:
-    //     console.log('codepush status Update cancelled by user');
-    //     setProgress(false);
-    //     break;
-    //   case codePush.SyncStatus.UPDATE_INSTALLED:
-    //     console.log(
-    //       'codepush status Update installed and will be applied on restart',
-    //     );
-    //     setProgress(false);
-    //     break;
-    //   case codePush.SyncStatus.UNKNOWN_ERROR:
-    //     console.log('codepush status An unknown error occurred.');
-    //     setProgress(false);
-    //     break;
-    // }
+    switch (syncStatus) {
+      case codePush.SyncStatus.CHECKING_FOR_UPDATE:
+        console.log('codepush status Checking for update');
+        break;
+      case codePush.SyncStatus.DOWNLOADING_PACKAGE:
+        console.log('codepush status Downloading package');
+        break;
+      case codePush.SyncStatus.AWAITING_USER_ACTION:
+        console.log('codepush status Awaiting user action');
+        break;
+      case codePush.SyncStatus.INSTALLING_UPDATE:
+        console.log('codepush status Installing update');
+        setProgress(false);
+        break;
+      case codePush.SyncStatus.UP_TO_DATE:
+        console.log('codepush status App up to date');
+        setProgress(false);
+        break;
+      case codePush.SyncStatus.UPDATE_IGNORED:
+        console.log('codepush status Update cancelled by user');
+        setProgress(false);
+        break;
+      case codePush.SyncStatus.UPDATE_INSTALLED:
+        console.log(
+          'codepush status Update installed and will be applied on restart',
+        );
+        setProgress(false);
+        break;
+      case codePush.SyncStatus.UNKNOWN_ERROR:
+        console.log('codepush status An unknown error occurred.');
+        setProgress(false);
+        break;
+    }
   }
 
   function codePushDownloadDidProgress(progress) {
-    // console.log('codepush status progress status', progress);
-    // setProgress(progress);
+    console.log('codepush status progress status', progress);
+    setProgress(progress);
   }
 
   const progressView = () => {
@@ -464,5 +455,4 @@ const App = () => {
   );
 };
 
-// export default codePush(CodePushOptions)(App);
-export default App;
+export default codePush(CodePushOptions)(App);

@@ -1,8 +1,8 @@
 import {appleAuth} from '@invertase/react-native-apple-authentication';
-// import {
-//   GoogleSignin,
-//   statusCodes,
-// } from '@react-native-google-signin/google-signin';
+import {
+  GoogleSignin,
+  statusCodes,
+} from '@react-native-google-signin/google-signin';
 import {NativeModules} from 'react-native';
 // import {
 //   GraphRequest,
@@ -25,29 +25,29 @@ RNTwitterSignIn.init(
 //
 // Settings.initializeSDK();
 export const googleLogin = async () => {
-  // GoogleSignin.configure();
-  // try {
-  //   // await GoogleSignin.hasPlayServices();
-  //   // await GoogleSignin.revokeAccess();
-  //   await GoogleSignin.signOut();
-  //   const userInfo = await GoogleSignin.signIn();
-  //   // console.log('google login in try block');
-  //   return userInfo;
-  // } catch (error) {
-  //   if (error.code === statusCodes.SIGN_IN_CANCELLED) {
-  //     // console.log('SIGN_IN_CANCELLED');
-  //     return error;
-  //   } else if (error.code === statusCodes.IN_PROGRESS) {
-  //     // console.log('IN_PROGRESS');
-  //     return error;
-  //   } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
-  //     // console.log('PLAY_SERVICES_NOT_AVAILABLE');
-  //     return error;
-  //   } else {
-  //     // console.log(error, 'error in gmail');
-  //     return error;
-  //   }
-  // }
+  GoogleSignin.configure();
+  try {
+    // await GoogleSignin.hasPlayServices();
+    // await GoogleSignin.revokeAccess();
+    await GoogleSignin.signOut();
+    const userInfo = await GoogleSignin.signIn();
+    // console.log('google login in try block');
+    return userInfo;
+  } catch (error) {
+    if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+      // console.log('SIGN_IN_CANCELLED');
+      return error;
+    } else if (error.code === statusCodes.IN_PROGRESS) {
+      // console.log('IN_PROGRESS');
+      return error;
+    } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+      // console.log('PLAY_SERVICES_NOT_AVAILABLE');
+      return error;
+    } else {
+      // console.log(error, 'error in gmail');
+      return error;
+    }
+  }
 };
 
 export const fbLogin = (resCallback) => {
