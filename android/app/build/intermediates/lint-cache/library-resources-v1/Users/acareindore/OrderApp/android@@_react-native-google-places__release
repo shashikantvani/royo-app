@@ -1,0 +1,1 @@
+http://schemas.android.com/apk/res-auto;OrderApp:react-native-google-places:unspecified;$HOME/OrderApp/node_modules/react-native-google-places/android/build/.transforms/ebf45ff1b4e46a276b7a373861f2c09b/transformed/out/res/values/values.xml,+string:places_api_key,0,V"INSERT_KEY_HERE";app_name,0,V"RNGooglePlaces";

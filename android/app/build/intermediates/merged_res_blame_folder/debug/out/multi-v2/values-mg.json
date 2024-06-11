@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.orderapp-mergeDebugResources-124:/values-mg/values-mg.xml",
+            "map": [
+                {
+                    "source": "/Users/acareindore/.gradle/caches/transforms-3/e70c3ccaf22c5376b3ac9cb533df7714/transformed/jetified-hcaptcha-20.40.4/res/values-mg/values-mg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "87",
+                        "endOffsets": "138"
+                    }
+                }
+            ]
+        }
+    ]
+}

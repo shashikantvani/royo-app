@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.orderapp-mergeReleaseResources-124:/values-h420dp-v13/values-h420dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/res/values-h420dp-v13/values-h420dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

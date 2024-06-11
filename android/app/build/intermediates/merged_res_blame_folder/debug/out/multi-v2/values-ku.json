@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.orderapp-mergeDebugResources-124:/values-ku/values-ku.xml",
+            "map": [
+                {
+                    "source": "/Users/acareindore/.gradle/caches/transforms-3/64cc0f09482b7eba658e985cab9ea8b8/transformed/jetified-react-android-0.73.6-debug/res/values-ku/values-ku.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,136,205,288,355,422",
+                        "endColumns": "80,68,82,66,66,72",
+                        "endOffsets": "131,200,283,350,417,490"
+                    }
+                },
+                {
+                    "source": "/Users/acareindore/.gradle/caches/transforms-3/e70c3ccaf22c5376b3ac9cb533df7714/transformed/jetified-hcaptcha-20.40.4/res/values-ku/values-ku.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "84",
+                        "endOffsets": "135"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "495",
+                        "endColumns": "84",
+                        "endOffsets": "575"
+                    }
+                }
+            ]
+        }
+    ]
+}

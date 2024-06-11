@@ -1,0 +1,1817 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.orderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:4:5-64
+12-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission
+14-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:6:5-79
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:6:22-77
+16        android:maxSdkVersion="32" />
+16-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:18:9-35
+17
+18    <uses-feature
+18-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:7:5-85
+19        android:name="android.hardware.camera"
+19-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:7:19-57
+20        android:required="false" />
+20-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:7:58-82
+21    <uses-feature
+21-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:8:5-91
+22        android:name="android.hardware.camera.front"
+22-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:8:19-63
+23        android:required="false" />
+23-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:8:64-88
+24
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:9:5-79
+25-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:9:22-76
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:10:5-65
+26-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:10:22-63
+27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+27-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:11:5-77
+27-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:11:22-75
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:12:5-68
+28-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:12:22-65
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:13:5-80
+29-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:13:22-78
+30    <uses-permission android:name="android.permission.READ_CONTACTS" />
+30-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:14:6-73
+30-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:14:23-70
+31    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+31-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:15:7-75
+31-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:15:24-72
+32    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+32-->[:brooons_react-native-bluetooth-escpos-printer] /Users/acareindore/OrderApp/node_modules/@brooons/react-native-bluetooth-escpos-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-74
+32-->[:brooons_react-native-bluetooth-escpos-printer] /Users/acareindore/OrderApp/node_modules/@brooons/react-native-bluetooth-escpos-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-71
+33    <uses-permission android:name="android.permission.BLUETOOTH" />
+33-->[:brooons_react-native-bluetooth-escpos-printer] /Users/acareindore/OrderApp/node_modules/@brooons/react-native-bluetooth-escpos-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+33-->[:brooons_react-native-bluetooth-escpos-printer] /Users/acareindore/OrderApp/node_modules/@brooons/react-native-bluetooth-escpos-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->[:brooons_react-native-bluetooth-escpos-printer] /Users/acareindore/OrderApp/node_modules/@brooons/react-native-bluetooth-escpos-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+34-->[:brooons_react-native-bluetooth-escpos-printer] /Users/acareindore/OrderApp/node_modules/@brooons/react-native-bluetooth-escpos-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+35
+36    <original-package android:name="woyou.aidlservice.jiuiv5" />
+36-->[:heasy_react-native-sunmi-printer] /Users/acareindore/OrderApp/node_modules/@heasy/react-native-sunmi-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-65
+36-->[:heasy_react-native-sunmi-printer] /Users/acareindore/OrderApp/node_modules/@heasy/react-native-sunmi-printer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:23-62
+37
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[:react-native-community_netinfo] /Users/acareindore/OrderApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+38-->[:react-native-community_netinfo] /Users/acareindore/OrderApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-76
+39    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+39-->[:react-native-community_netinfo] /Users/acareindore/OrderApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-76
+39-->[:react-native-community_netinfo] /Users/acareindore/OrderApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-73
+40    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+40-->[:react-native-voice_voice] /Users/acareindore/OrderApp/node_modules/@react-native-voice/voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+40-->[:react-native-voice_voice] /Users/acareindore/OrderApp/node_modules/@react-native-voice/voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+41-->[:react-native-background-actions] /Users/acareindore/OrderApp/node_modules/react-native-background-actions/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-77
+41-->[:react-native-background-actions] /Users/acareindore/OrderApp/node_modules/react-native-background-actions/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-74
+42
+43    <queries>
+43-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-11:15
+44        <intent>
+44-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-10:18
+45            <action android:name="android.media.action.IMAGE_CAPTURE" />
+45-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-73
+45-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:21-70
+46        </intent>
+47        <!-- Added to check the default browser that will host the AuthFlow. -->
+48        <intent>
+48-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:13:9-17:18
+49            <action android:name="android.intent.action.VIEW" />
+49-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+49-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+50
+51            <data android:scheme="http" />
+51-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+51-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+52        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+53        <package android:name="com.android.chrome" />
+53-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:11:9-54
+53-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:11:18-51
+54
+55        <intent>
+55-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:11:9-17:18
+56            <action android:name="android.intent.action.VIEW" />
+56-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+56-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+57
+58            <data
+58-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+59                android:mimeType="*/*"
+60                android:scheme="*" />
+60-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+61        </intent>
+62        <intent>
+62-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:18:9-27:18
+63            <action android:name="android.intent.action.VIEW" />
+63-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+63-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+64
+65            <category android:name="android.intent.category.BROWSABLE" />
+65-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:15-76
+65-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:25-73
+66
+67            <data
+67-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+68                android:host="pay"
+69                android:mimeType="*/*"
+70                android:scheme="upi" />
+70-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+71        </intent>
+72        <intent>
+72-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:28:9-30:18
+73            <action android:name="android.intent.action.MAIN" />
+73-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:35:13-65
+73-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:35:21-62
+74        </intent>
+75        <intent>
+75-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:31:9-35:18
+76            <action android:name="android.intent.action.SEND" />
+76-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:32:13-65
+76-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:32:21-62
+77
+78            <data android:mimeType="*/*" />
+78-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+79        </intent>
+80        <intent>
+80-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:36:9-38:18
+81            <action android:name="rzp.device_token.share" />
+81-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:13-61
+81-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:21-58
+82        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+83        <package android:name="com.google.android.apps.maps" />
+83-->[com.google.android.gms:play-services-maps:18.2.0] /Users/acareindore/.gradle/caches/transforms-3/ca6b0d4b9aa43192dedbc45f940b6ff3/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+83-->[com.google.android.gms:play-services-maps:18.2.0] /Users/acareindore/.gradle/caches/transforms-3/ca6b0d4b9aa43192dedbc45f940b6ff3/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+84        <package android:name="com.facebook.katana" /> <!-- Gallery -->
+84-->[com.facebook.android:facebook-common:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/877ce9c92d309c36cf876e9e4efd3b91/transformed/jetified-facebook-common-17.0.0/AndroidManifest.xml:18:9-55
+84-->[com.facebook.android:facebook-common:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/877ce9c92d309c36cf876e9e4efd3b91/transformed/jetified-facebook-common-17.0.0/AndroidManifest.xml:18:18-52
+85        <intent>
+85-->[com.zendesk:common-ui:4.0.5] /Users/acareindore/.gradle/caches/transforms-3/6c6cb38831c6cd94326a312bd1ab8cf6/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:24:9-26:18
+86            <action android:name="android.intent.action.GET_CONTENT" />
+86-->[com.zendesk:common-ui:4.0.5] /Users/acareindore/.gradle/caches/transforms-3/6c6cb38831c6cd94326a312bd1ab8cf6/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:25:13-72
+86-->[com.zendesk:common-ui:4.0.5] /Users/acareindore/.gradle/caches/transforms-3/6c6cb38831c6cd94326a312bd1ab8cf6/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:25:21-69
+87        </intent> <!-- Docs -->
+88        <intent>
+88-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:19:9-23:18
+89            <action android:name="android.intent.action.OPEN_DOCUMENT" />
+89-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:20:13-74
+89-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:20:21-71
+90
+91            <data android:mimeType="*/*" />
+91-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+92        </intent> <!-- Gallery -->
+93        <intent>
+93-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:25:9-29:18
+94            <action android:name="android.intent.action.GET_CONTENT" />
+94-->[com.zendesk:common-ui:4.0.5] /Users/acareindore/.gradle/caches/transforms-3/6c6cb38831c6cd94326a312bd1ab8cf6/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:25:13-72
+94-->[com.zendesk:common-ui:4.0.5] /Users/acareindore/.gradle/caches/transforms-3/6c6cb38831c6cd94326a312bd1ab8cf6/transformed/jetified-common-ui-4.0.5/AndroidManifest.xml:25:21-69
+95
+96            <data android:mimeType="*/*" />
+96-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+97        </intent>
+98    </queries> <!-- Required to access Google Play Licensing -->
+99    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+99-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-73
+99-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-70
+100    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+100-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:12:5-75
+100-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:12:22-72
+101    <uses-permission android:name="android.permission.FLASHLIGHT" />
+101-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:15:5-69
+101-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:15:22-66
+102
+103    <uses-feature
+103-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:20:5-22:36
+104        android:name="android.hardware.camera.autofocus"
+104-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:21:9-57
+105        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+105-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:22:9-33
+106    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+106-->[com.google.android.gms:play-services-iid:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/5f88372bb182c33e0acc2fef67311914/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+106-->[com.google.android.gms:play-services-iid:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/5f88372bb182c33e0acc2fef67311914/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+107
+108    <uses-feature
+108-->[com.google.android.gms:play-services-maps:18.2.0] /Users/acareindore/.gradle/caches/transforms-3/ca6b0d4b9aa43192dedbc45f940b6ff3/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+109        android:glEsVersion="0x00020000"
+109-->[com.google.android.gms:play-services-maps:18.2.0] /Users/acareindore/.gradle/caches/transforms-3/ca6b0d4b9aa43192dedbc45f940b6ff3/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+110        android:required="true" />
+110-->[com.google.android.gms:play-services-maps:18.2.0] /Users/acareindore/.gradle/caches/transforms-3/ca6b0d4b9aa43192dedbc45f940b6ff3/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+111
+112    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required only if your app targets Android 13. -->
+112-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:23:5-77
+112-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:23:22-74
+113    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+113-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:11:5-76
+113-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:11:22-73
+114    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+114-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:12:5-75
+114-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:12:22-72
+115    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+115-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:13:5-75
+115-->[com.zendesk.belvedere2:belvedere:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/AndroidManifest.xml:13:22-72
+116    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+116-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:16:5-79
+116-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:16:22-76
+117
+118    <permission
+118-->[androidx.core:core:1.12.0] /Users/acareindore/.gradle/caches/transforms-3/ab25d5ae5c1681852270fc846ac82713/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+119        android:name="com.orderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+119-->[androidx.core:core:1.12.0] /Users/acareindore/.gradle/caches/transforms-3/ab25d5ae5c1681852270fc846ac82713/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+120        android:protectionLevel="signature" />
+120-->[androidx.core:core:1.12.0] /Users/acareindore/.gradle/caches/transforms-3/ab25d5ae5c1681852270fc846ac82713/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+121
+122    <uses-permission android:name="com.orderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+122-->[androidx.core:core:1.12.0] /Users/acareindore/.gradle/caches/transforms-3/ab25d5ae5c1681852270fc846ac82713/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+122-->[androidx.core:core:1.12.0] /Users/acareindore/.gradle/caches/transforms-3/ab25d5ae5c1681852270fc846ac82713/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+123    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+123-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:16:5-81
+123-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:16:22-78
+124    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+124-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:17:5-79
+124-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:17:22-76
+125    <uses-permission
+125-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:18:5-20:38
+126        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+126-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:19:9-73
+127        android:maxSdkVersion="30" /> <!-- For Xiaomi devices to enable heads-up notifications as default (https://github.com/invertase/notifee/issues/296) -->
+127-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:20:9-35
+128    <uses-permission
+128-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:22:5-24:38
+129        android:name="android.permission.ACCESS_NOTIFICATION_POLICY"
+129-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-69
+130        android:minSdkVersion="23" />
+130-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:24:9-35
+131    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+131-->[com.android.installreferrer:installreferrer:1.1.2] /Users/acareindore/.gradle/caches/transforms-3/2f6a6b1a8be320996740940505612ba4/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+131-->[com.android.installreferrer:installreferrer:1.1.2] /Users/acareindore/.gradle/caches/transforms-3/2f6a6b1a8be320996740940505612ba4/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+132    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+133    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+134    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+135    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+136    <!-- for Samsung -->
+137    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+137-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+137-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+138    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+138-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+138-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+139    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+139-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+139-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+140    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+140-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+140-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+141    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+141-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+141-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+142    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+142-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+142-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+143    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+143-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+143-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+144    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+144-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+144-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+145    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+145-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+145-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+146    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+146-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+146-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+147    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+147-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+147-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+148    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+148-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+148-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+149    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+149-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+149-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+150    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+150-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+150-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+151    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+151-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+151-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+152    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+152-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+152-->[me.leolin:ShortcutBadger:1.1.22] /Users/acareindore/.gradle/caches/transforms-3/33baa9f95b060905f1864947b1f2f57a/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+153
+154    <application
+154-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:17:5-85:19
+155        android:name="com.orderapp.MainApplication"
+155-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:18:7-38
+156        android:allowBackup="false"
+156-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:22:7-34
+157        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+157-->[androidx.core:core:1.12.0] /Users/acareindore/.gradle/caches/transforms-3/ab25d5ae5c1681852270fc846ac82713/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+158        android:dataExtractionRules="@xml/data_extraction_rules"
+158-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:26:9-65
+159        android:extractNativeLibs="true"
+160        android:fullBackupContent="false"
+160-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:27:9-42
+161        android:icon="@mipmap/ic_launcher"
+161-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:20:7-41
+162        android:label="@string/app_name"
+162-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:19:7-39
+163        android:roundIcon="@mipmap/ic_launcher_round"
+163-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:21:7-52
+164        android:supportsRtl="true"
+164-->[:react-native-google-places] /Users/acareindore/OrderApp/node_modules/react-native-google-places/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-35
+165        android:theme="@style/AppTheme"
+165-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:23:7-38
+166        android:usesCleartextTraffic="true" >
+166-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:24:7-42
+167        <activity
+167-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:26:7-39:18
+168            android:name="com.orderapp.MainActivity"
+168-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:27:9-37
+169            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+169-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:29:9-118
+170            android:exported="true"
+170-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:32:9-32
+171            android:label="@string/app_name"
+171-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:28:9-41
+172            android:launchMode="singleTask"
+172-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:30:9-40
+173            android:windowSoftInputMode="adjustResize" >
+173-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:31:9-51
+174            <intent-filter>
+174-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:34:9-37:25
+175                <action android:name="android.intent.action.MAIN" />
+175-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:35:13-65
+175-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:35:21-62
+176
+177                <category android:name="android.intent.category.LAUNCHER" />
+177-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:36:13-73
+177-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:36:23-70
+178            </intent-filter>
+179        </activity>
+180        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+180-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:40:8-85
+180-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:40:18-82
+181
+182        <meta-data
+182-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:42:17-43:52
+183            android:name="com.facebook.sdk.ApplicationId"
+183-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:42:28-73
+184            android:value="@string/facebook_app_id" />
+184-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:43:11-50
+185
+186        <activity
+186-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:44:17-47:46
+187            android:name="com.facebook.FacebookActivity"
+187-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:44:27-71
+188            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+188-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:45:11-113
+189            android:label="@string/app_name"
+189-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:47:11-43
+190            android:theme="@style/com_facebook_activity_theme" />
+190-->[com.facebook.android:facebook-common:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/877ce9c92d309c36cf876e9e4efd3b91/transformed/jetified-facebook-common-17.0.0/AndroidManifest.xml:25:13-63
+191        <activity
+191-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:48:7-57:18
+192            android:name="com.facebook.CustomTabActivity"
+192-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:49:11-56
+193            android:exported="true" >
+193-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:50:11-34
+194            <intent-filter>
+194-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:51:11-56:27
+195                <action android:name="android.intent.action.VIEW" />
+195-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+195-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+196
+197                <category android:name="android.intent.category.DEFAULT" />
+197-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:15-74
+197-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:25-71
+198                <category android:name="android.intent.category.BROWSABLE" />
+198-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:15-76
+198-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:25-73
+199
+200                <data android:scheme="@string/fb_login_protocol_scheme" />
+200-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+200-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+201            </intent-filter>
+202            <intent-filter>
+202-->[com.facebook.android:facebook-common:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/877ce9c92d309c36cf876e9e4efd3b91/transformed/jetified-facebook-common-17.0.0/AndroidManifest.xml:31:13-40:29
+203                <action android:name="android.intent.action.VIEW" />
+203-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+203-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:15-74
+205-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:25-71
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:15-76
+206-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:25-73
+207
+208                <data
+208-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+209                    android:host="cct.com.orderapp"
+210                    android:scheme="fbconnect" />
+210-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+211            </intent-filter>
+212        </activity>
+213
+214        <meta-data
+214-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:59:9-61:53
+215            android:name="com.google.android.geo.API_KEY"
+215-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:60:9-54
+216            android:value="@string/google_api_key_id" />
+216-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:61:9-50
+217
+218        <uses-library
+218-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:62:9-87
+219            android:name="org.apache.http.legacy"
+219-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:62:23-60
+220            android:required="false" />
+220-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:62:61-85
+221        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+222        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+223        <!--
+224        <meta-data  android:name="com.dieam.reactnativepushnotification.notification_foreground"
+225                    android:value="true"/>
+226    
+227        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+228        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+229        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+230            <intent-filter>
+231                <action android:name="android.intent.action.BOOT_COMPLETED" />
+232                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+233                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+234            </intent-filter>
+235        </receiver>
+236        -->
+237
+238
+239        <!--
+240        <service
+241            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+242            android:exported="false" >
+243            <intent-filter>
+244                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+245            </intent-filter>
+246        </service>
+247        -->
+248        <provider
+248-->[:notifee_react-native] /Users/acareindore/OrderApp/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:40
+249            android:name="io.invertase.notifee.NotifeeInitProvider"
+249-->[:notifee_react-native] /Users/acareindore/OrderApp/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-68
+250            android:authorities="com.orderapp.notifee-init-provider"
+250-->[:notifee_react-native] /Users/acareindore/OrderApp/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-73
+251            android:exported="false"
+251-->[:notifee_react-native] /Users/acareindore/OrderApp/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+252            android:initOrder="-100" />
+252-->[:notifee_react-native] /Users/acareindore/OrderApp/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+253
+254        <service
+254-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:40
+255            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+255-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-103
+256            android:exported="false" />
+256-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+257        <service
+257-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-21:19
+258            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+258-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-95
+259            android:exported="false" >
+259-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+260            <intent-filter>
+260-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+261                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+261-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+261-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+262            </intent-filter>
+263        </service>
+264
+265        <receiver
+265-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-30:20
+266            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+266-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-96
+267            android:exported="true"
+267-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-36
+268            android:permission="com.google.android.c2dm.permission.SEND" >
+268-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-73
+269            <intent-filter>
+269-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+270                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+270-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+270-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+271            </intent-filter>
+272        </receiver>
+273
+274        <meta-data
+274-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-34:36
+275            android:name="firebase_messaging_auto_init_enabled"
+275-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-64
+276            android:value="true" />
+276-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-33
+277        <meta-data
+277-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-37:32
+278            android:name="com.google.firebase.messaging.default_notification_channel_id"
+278-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-89
+279            android:value="" />
+279-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-29
+280        <meta-data
+280-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-40:47
+281            android:name="com.google.firebase.messaging.default_notification_color"
+281-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-84
+282            android:resource="@color/white" />
+282-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-44
+283        <meta-data
+283-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-11:36
+284            android:name="app_data_collection_default_enabled"
+284-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-63
+285            android:value="true" />
+285-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-33
+286
+287        <service
+287-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-21:19
+288            android:name="com.google.firebase.components.ComponentDiscoveryService"
+288-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-84
+289            android:directBootAware="true"
+289-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-43
+290            android:exported="false" >
+290-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+291            <meta-data
+291-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:85
+292                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+292-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-120
+293                android:value="com.google.firebase.components.ComponentRegistrar" />
+293-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-82
+294            <meta-data
+294-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:57:13-59:85
+295                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+295-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:58:17-122
+296                android:value="com.google.firebase.components.ComponentRegistrar" />
+296-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:59:17-82
+297            <meta-data
+297-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:60:13-62:85
+298                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+298-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:61:17-119
+299                android:value="com.google.firebase.components.ComponentRegistrar" />
+299-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:62:17-82
+300            <meta-data
+300-->[com.google.firebase:firebase-installations:17.2.0] /Users/acareindore/.gradle/caches/transforms-3/c8fc2349083b394e9aad4bee1c82fb70/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+301                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+301-->[com.google.firebase:firebase-installations:17.2.0] /Users/acareindore/.gradle/caches/transforms-3/c8fc2349083b394e9aad4bee1c82fb70/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+302                android:value="com.google.firebase.components.ComponentRegistrar" />
+302-->[com.google.firebase:firebase-installations:17.2.0] /Users/acareindore/.gradle/caches/transforms-3/c8fc2349083b394e9aad4bee1c82fb70/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+303            <meta-data
+303-->[com.google.firebase:firebase-installations:17.2.0] /Users/acareindore/.gradle/caches/transforms-3/c8fc2349083b394e9aad4bee1c82fb70/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+304                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+304-->[com.google.firebase:firebase-installations:17.2.0] /Users/acareindore/.gradle/caches/transforms-3/c8fc2349083b394e9aad4bee1c82fb70/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+305                android:value="com.google.firebase.components.ComponentRegistrar" />
+305-->[com.google.firebase:firebase-installations:17.2.0] /Users/acareindore/.gradle/caches/transforms-3/c8fc2349083b394e9aad4bee1c82fb70/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+306            <meta-data
+306-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/7784205a870f56c26bcb60ccabf79f4f/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:12:13-14:85
+307                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+307-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/7784205a870f56c26bcb60ccabf79f4f/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:13:17-116
+308                android:value="com.google.firebase.components.ComponentRegistrar" />
+308-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/7784205a870f56c26bcb60ccabf79f4f/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:14:17-82
+309            <meta-data
+309-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:35:13-37:85
+310                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+310-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:36:17-109
+311                android:value="com.google.firebase.components.ComponentRegistrar" />
+311-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:37:17-82
+312            <meta-data
+312-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/acareindore/.gradle/caches/transforms-3/36b22a6d5c83b6d784dafba7e78bd608/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+313                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+313-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/acareindore/.gradle/caches/transforms-3/36b22a6d5c83b6d784dafba7e78bd608/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+314                android:value="com.google.firebase.components.ComponentRegistrar" />
+314-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/acareindore/.gradle/caches/transforms-3/36b22a6d5c83b6d784dafba7e78bd608/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+315        </service>
+316
+317        <provider
+317-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-27:38
+318            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+318-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-88
+319            android:authorities="com.orderapp.reactnativefirebaseappinitprovider"
+319-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-86
+320            android:exported="false"
+320-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-37
+321            android:initOrder="99" />
+321-->[:react-native-firebase_app] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-35
+322
+323        <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" />
+323-->[:react-native-background-actions] /Users/acareindore/OrderApp/node_modules/react-native-background-actions/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-89
+323-->[:react-native-background-actions] /Users/acareindore/OrderApp/node_modules/react-native-background-actions/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-86
+324
+325        <provider
+325-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-24:20
+326            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+326-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-94
+327            android:authorities="com.orderapp.provider"
+327-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-60
+328            android:exported="false"
+328-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+329            android:grantUriPermissions="true" >
+329-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-47
+330            <meta-data
+330-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:78
+331                android:name="android.support.FILE_PROVIDER_PATHS"
+331-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-67
+332                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+332-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-75
+333        </provider>
+334
+335        <activity
+335-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:72
+336            android:name="com.yalantis.ucrop.UCropActivity"
+336-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-60
+337            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+337-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-69
+338        <activity
+338-->[:react-native-razorpay] /Users/acareindore/OrderApp/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-10:86
+339            android:name="com.razorpay.CheckoutActivity"
+339-->[:react-native-razorpay] /Users/acareindore/OrderApp/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-57
+340            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+340-->[:react-native-razorpay] /Users/acareindore/OrderApp/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-83
+341            android:exported="false"
+341-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:54:13-37
+342            android:theme="@style/CheckoutTheme" >
+342-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:55:13-49
+343            <intent-filter>
+343-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:56:13-58:29
+344                <action android:name="android.intent.action.MAIN" />
+344-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:35:13-65
+344-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:35:21-62
+345            </intent-filter>
+346        </activity>
+347
+348        <provider
+348-->[:react-native-share] /Users/acareindore/OrderApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+349            android:name="cl.json.RNShareFileProvider"
+349-->[:react-native-share] /Users/acareindore/OrderApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-55
+350            android:authorities="com.orderapp.rnshare.fileprovider"
+350-->[:react-native-share] /Users/acareindore/OrderApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-72
+351            android:exported="false"
+351-->[:react-native-share] /Users/acareindore/OrderApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+352            android:grantUriPermissions="true" >
+352-->[:react-native-share] /Users/acareindore/OrderApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+353            <meta-data
+353-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:78
+354                android:name="android.support.FILE_PROVIDER_PATHS"
+354-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-67
+355                android:resource="@xml/share_download_paths" />
+355-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-75
+356        </provider>
+357        <provider
+357-->[:react-native-webview] /Users/acareindore/OrderApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+358            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+358-->[:react-native-webview] /Users/acareindore/OrderApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-83
+359            android:authorities="com.orderapp.fileprovider"
+359-->[:react-native-webview] /Users/acareindore/OrderApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-64
+360            android:exported="false"
+360-->[:react-native-webview] /Users/acareindore/OrderApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+361            android:grantUriPermissions="true" >
+361-->[:react-native-webview] /Users/acareindore/OrderApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+362            <meta-data
+362-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:78
+363                android:name="android.support.FILE_PROVIDER_PATHS"
+363-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-67
+364                android:resource="@xml/file_provider_paths" />
+364-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-75
+365        </provider>
+366        <provider
+366-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-40:20
+367            android:name="com.RNFetchBlob.Utils.FileProvider"
+367-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-62
+368            android:authorities="com.orderapp.provider"
+368-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-60
+369            android:exported="false"
+369-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-37
+370            android:grantUriPermissions="true" >
+370-->[:rn-fetch-blob-v2] /Users/acareindore/OrderApp/node_modules/rn-fetch-blob-v2/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-47
+371            <meta-data
+371-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:78
+372                android:name="android.support.FILE_PROVIDER_PATHS"
+372-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-67
+373                android:resource="@xml/provider_paths" />
+373-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-75
+374        </provider> <!-- Autocomplete -->
+375        <activity
+375-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:16:9-23:20
+376            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+376-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:17:13-91
+377            android:exported="false"
+377-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:18:13-37
+378            android:hardwareAccelerated="true"
+378-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:19:13-47
+379            android:label="@string/places_autocomplete_label"
+379-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:20:13-62
+380            android:theme="@style/PlacesAutocompleteThemeOverlay"
+380-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:21:13-66
+381            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+381-->[com.google.android.libraries.places:places:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/151abb28402dfc7fe14c491667d49d57/transformed/jetified-places-1.1.0/AndroidManifest.xml:22:13-71
+382        </activity>
+383        <activity
+383-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:29:9-33:81
+384            android:name="com.payment.paymentsdk.PaymentSdkActivity"
+384-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:30:13-69
+385            android:exported="true"
+385-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:31:13-36
+386            android:screenOrientation="portrait"
+386-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:32:13-49
+387            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+387-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:33:13-78
+388        <activity
+388-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:34:9-43:20
+389            android:name="com.payment.paymentsdk.save_cards.presentation.ui.SavedCardsActivity"
+389-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:35:13-96
+390            android:exported="false"
+390-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:36:13-37
+391            android:parentActivityName="com.payment.paymentsdk.PaymentSdkActivity"
+391-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:37:13-83
+392            android:screenOrientation="unspecified"
+392-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:38:13-52
+393            android:theme="@style/Theme.AppCompat.Translucent" >
+393-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:39:13-63
+394            <meta-data
+394-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:40:13-42:55
+395                android:name="android.support.PARENT_ACTIVITY"
+395-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:41:17-63
+396                android:value=".PaymentSdkActivity" />
+396-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:42:17-52
+397        </activity>
+398        <activity
+398-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:44:9-46:58
+399            android:name="com.payment.paymentsdk.QuerySdkActivity"
+399-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:45:13-67
+400            android:theme="@style/Theme.PtTransparent" />
+400-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:46:13-55
+401        <activity
+401-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:47:9-50:58
+402            android:name="com.getbouncer.cardscan.ui.CardScanActivity"
+402-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:48:13-71
+403            android:screenOrientation="nosensor"
+403-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:49:13-49
+404            android:theme="@style/BouncerDefaultTheme" />
+404-->[com.paytabs:payment-sdk:6.5.9] /Users/acareindore/.gradle/caches/transforms-3/ef6f9480aa4a3c0120b8ffc03eb6dbc5/transformed/jetified-payment-sdk-6.5.9/AndroidManifest.xml:50:13-55
+405        <activity
+405-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:21:9-65:20
+406            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+406-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:22:13-109
+407            android:exported="true"
+407-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:23:13-36
+408            android:launchMode="singleTask" >
+408-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:24:13-44
+409            <intent-filter>
+409-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:25:13-64:29
+410                <action android:name="android.intent.action.VIEW" />
+410-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+410-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+411
+412                <category android:name="android.intent.category.DEFAULT" />
+412-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:15-74
+412-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:25-71
+413                <category android:name="android.intent.category.BROWSABLE" />
+413-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:15-76
+413-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:25-73
+414
+415                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+416                <data
+416-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+417                    android:host="link-accounts"
+418                    android:pathPrefix="/com.orderapp/authentication_return"
+419                    android:scheme="stripe-auth" />
+419-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+420
+421                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+422                <data
+422-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+423                    android:host="link-native-accounts"
+424                    android:pathPrefix="/com.orderapp/authentication_return"
+425                    android:scheme="stripe-auth" />
+425-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+426
+427                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+428                <data
+428-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+429                    android:host="link-accounts"
+430                    android:path="/com.orderapp/success"
+431                    android:scheme="stripe-auth" />
+431-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+432                <data
+432-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+433                    android:host="link-accounts"
+434                    android:path="/com.orderapp/cancel"
+435                    android:scheme="stripe-auth" />
+435-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+436
+437                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+438                <data
+438-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+439                    android:host="native-redirect"
+440                    android:pathPrefix="/com.orderapp"
+441                    android:scheme="stripe-auth" />
+441-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+442
+443                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+444                <data
+444-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+445                    android:host="auth-redirect"
+446                    android:pathPrefix="/com.orderapp"
+447                    android:scheme="stripe" />
+447-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+448            </intent-filter>
+449        </activity>
+450        <activity
+450-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:66:9-69:57
+451            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+451-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:67:13-101
+452            android:exported="false"
+452-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:68:13-37
+453            android:theme="@style/StripeDefaultTheme" />
+453-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:69:13-54
+454        <activity
+454-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:70:9-74:58
+455            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+455-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:71:13-110
+456            android:exported="false"
+456-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:72:13-37
+457            android:theme="@style/StripeDefaultTheme"
+457-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:73:13-54
+458            android:windowSoftInputMode="adjustResize" />
+458-->[com.stripe:financial-connections:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/1b4362fe115e788624f50992fa1b3a35/transformed/jetified-financial-connections-20.40.4/AndroidManifest.xml:74:13-55
+459        <activity
+459-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:8:9-12:58
+460            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+460-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:9:13-80
+461            android:exported="false"
+461-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:10:13-37
+462            android:theme="@style/StripePaymentSheetDefaultTheme"
+462-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:11:13-66
+463            android:windowSoftInputMode="adjustResize" />
+463-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:12:13-55
+464        <activity
+464-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:13:9-17:58
+465            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+465-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:14:13-82
+466            android:exported="false"
+466-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:15:13-37
+467            android:theme="@style/StripePaymentSheetDefaultTheme"
+467-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:16:13-66
+468            android:windowSoftInputMode="adjustResize" />
+468-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:17:13-55
+469        <activity
+469-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:18:9-22:58
+470            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+470-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:19:13-82
+471            android:exported="false"
+471-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:20:13-37
+472            android:theme="@style/StripePaymentSheetDefaultTheme"
+472-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:21:13-66
+473            android:windowSoftInputMode="adjustResize" />
+473-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:22:13-55
+474        <activity
+474-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:23:9-26:69
+475            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+475-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:24:13-97
+476            android:exported="false"
+476-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:25:13-37
+477            android:theme="@style/StripePaymentSheetDefaultTheme" />
+477-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:26:13-66
+478        <activity
+478-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:27:9-30:69
+479            android:name="com.stripe.android.paymentsheet.paymentdatacollection.bacs.BacsMandateConfirmationActivity"
+479-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:28:13-118
+480            android:exported="false"
+480-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:29:13-37
+481            android:theme="@style/StripePaymentSheetDefaultTheme" />
+481-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:30:13-66
+482        <activity
+482-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:31:9-34:69
+483            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+483-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:32:13-105
+484            android:exported="false"
+484-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:33:13-37
+485            android:theme="@style/StripePaymentSheetDefaultTheme" />
+485-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:34:13-66
+486        <activity
+486-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:35:9-38:69
+487            android:name="com.stripe.android.paymentsheet.ui.SepaMandateActivity"
+487-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:36:13-82
+488            android:exported="false"
+488-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:37:13-37
+489            android:theme="@style/StripePaymentSheetDefaultTheme" />
+489-->[com.stripe:paymentsheet:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d8395de7bc574e1be6e1a9f60dff771e/transformed/jetified-paymentsheet-20.40.4/AndroidManifest.xml:38:13-66
+490        <activity
+490-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:8:9-13:61
+491            android:name="com.stripe.android.link.LinkForegroundActivity"
+491-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:9:13-74
+492            android:autoRemoveFromRecents="true"
+492-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:10:13-49
+493            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+493-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:11:13-115
+494            android:launchMode="singleTop"
+494-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:12:13-43
+495            android:theme="@style/StripeTransparentTheme" />
+495-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:13:13-58
+496        <activity
+496-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:14:9-31:20
+497            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+497-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:15:13-79
+498            android:autoRemoveFromRecents="true"
+498-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:16:13-49
+499            android:exported="true"
+499-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:17:13-36
+500            android:launchMode="singleInstance"
+500-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:18:13-48
+501            android:theme="@style/StripeTransparentTheme" >
+501-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:19:13-58
+502            <intent-filter>
+502-->[com.stripe:link:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/d56fb09a02c2e35e672ddc6d735d7faa/transformed/jetified-link-20.40.4/AndroidManifest.xml:20:13-30:29
+503                <action android:name="android.intent.action.VIEW" />
+503-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+503-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+504
+505                <category android:name="android.intent.category.DEFAULT" />
+505-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:15-74
+505-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:25-71
+506                <category android:name="android.intent.category.BROWSABLE" />
+506-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:15-76
+506-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:25-73
+507
+508                <data
+508-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+509                    android:host="complete"
+510                    android:path="/com.orderapp"
+511                    android:scheme="link-popup" />
+511-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+512            </intent-filter>
+513        </activity>
+514        <activity
+514-->[com.stripe:payments-ui-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/09a4999ccea69c234c648878bd23373a/transformed/jetified-payments-ui-core-20.40.4/AndroidManifest.xml:8:9-11:69
+515            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+515-->[com.stripe:payments-ui-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/09a4999ccea69c234c648878bd23373a/transformed/jetified-payments-ui-core-20.40.4/AndroidManifest.xml:9:13-80
+516            android:exported="false"
+516-->[com.stripe:payments-ui-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/09a4999ccea69c234c648878bd23373a/transformed/jetified-payments-ui-core-20.40.4/AndroidManifest.xml:10:13-37
+517            android:theme="@style/StripePaymentSheetDefaultTheme" />
+517-->[com.stripe:payments-ui-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/09a4999ccea69c234c648878bd23373a/transformed/jetified-payments-ui-core-20.40.4/AndroidManifest.xml:11:13-66
+518        <activity
+518-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:15:9-18:57
+519            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+519-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:16:13-76
+520            android:exported="false"
+520-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:17:13-37
+521            android:theme="@style/StripeDefaultTheme" />
+521-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:18:13-54
+522        <activity
+522-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:19:9-22:57
+523            android:name="com.stripe.android.view.PaymentMethodsActivity"
+523-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:20:13-74
+524            android:exported="false"
+524-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:21:13-37
+525            android:theme="@style/StripeDefaultTheme" />
+525-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:22:13-54
+526        <activity
+526-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:23:9-26:57
+527            android:name="com.stripe.android.view.PaymentFlowActivity"
+527-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:24:13-71
+528            android:exported="false"
+528-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:25:13-37
+529            android:theme="@style/StripeDefaultTheme" />
+529-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:26:13-54
+530        <activity
+530-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:27:9-31:58
+531            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+531-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:28:13-78
+532            android:exported="false"
+532-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:29:13-37
+533            android:theme="@style/StripeDefaultTheme"
+533-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:30:13-54
+534            android:windowSoftInputMode="adjustResize" />
+534-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:31:13-55
+535        <activity
+535-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:32:9-35:61
+536            android:name="com.stripe.android.view.PaymentRelayActivity"
+536-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:33:13-72
+537            android:exported="false"
+537-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:34:13-37
+538            android:theme="@style/StripeTransparentTheme" />
+538-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:35:13-58
+539        <!--
+540        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+541        launched the browser Activity will also handle the return URL deep link.
+542        -->
+543        <activity
+543-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:41:9-45:61
+544            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+544-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:42:13-85
+545            android:exported="false"
+545-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:43:13-37
+546            android:launchMode="singleTask"
+546-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:44:13-44
+547            android:theme="@style/StripeTransparentTheme" />
+547-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:45:13-58
+548        <activity
+548-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:46:9-63:20
+549            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+549-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:47:13-88
+550            android:exported="true"
+550-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:48:13-36
+551            android:launchMode="singleTask"
+551-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:49:13-44
+552            android:theme="@style/StripeTransparentTheme" >
+552-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:50:13-58
+553            <intent-filter>
+553-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:51:13-62:29
+554                <action android:name="android.intent.action.VIEW" />
+554-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:15-67
+554-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:52:23-64
+555
+556                <category android:name="android.intent.category.DEFAULT" />
+556-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:15-74
+556-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:53:25-71
+557                <category android:name="android.intent.category.BROWSABLE" />
+557-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:15-76
+557-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:54:25-73
+558
+559                <!-- Must match `DefaultReturnUrl#value`. -->
+560                <data
+560-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:15-73
+561                    android:host="payment_return_url"
+562                    android:path="/com.orderapp"
+563                    android:scheme="stripesdk" />
+563-->/Users/acareindore/OrderApp/android/app/src/main/AndroidManifest.xml:55:21-70
+564            </intent-filter>
+565        </activity>
+566        <activity
+566-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:64:9-67:57
+567            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+567-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:65:13-114
+568            android:exported="false"
+568-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:66:13-37
+569            android:theme="@style/StripeDefaultTheme" />
+569-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:67:13-54
+570        <activity
+570-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:68:9-71:66
+571            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+571-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:69:13-90
+572            android:exported="false"
+572-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:70:13-37
+573            android:theme="@style/StripeGooglePayDefaultTheme" />
+573-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:71:13-63
+574        <activity
+574-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:72:9-75:66
+575            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+575-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:73:13-103
+576            android:exported="false"
+576-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:74:13-37
+577            android:theme="@style/StripeGooglePayDefaultTheme" />
+577-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:75:13-63
+578        <activity
+578-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:76:9-79:68
+579            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+579-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:77:13-107
+580            android:exported="false"
+580-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:78:13-37
+581            android:theme="@style/StripePayLauncherDefaultTheme" />
+581-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:79:13-65
+582        <activity
+582-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:80:9-83:61
+583            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+583-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:81:13-97
+584            android:exported="false"
+584-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:82:13-37
+585            android:theme="@style/StripeTransparentTheme" />
+585-->[com.stripe:payments-core:20.40.4] /Users/acareindore/.gradle/caches/transforms-3/a09a29a5e5fc03fe81bd294ea4225c83/transformed/jetified-payments-core-20.40.4/AndroidManifest.xml:83:13-58
+586
+587        <receiver
+587-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:42:9-49:20
+588            android:name="com.razorpay.RzpTokenReceiver"
+588-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:43:13-57
+589            android:exported="true" >
+589-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:44:13-36
+590            <intent-filter>
+590-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:46:13-48:29
+591                <action android:name="rzp.device_token.share" />
+591-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:13-61
+591-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:21-58
+592            </intent-filter>
+593        </receiver>
+594
+595        <meta-data
+595-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:61:9-63:58
+596            android:name="com.razorpay.plugin.googlepay_all"
+596-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:62:13-61
+597            android:value="com.razorpay.RzpGpayMerged" />
+597-->[com.razorpay:checkout:1.6.39] /Users/acareindore/.gradle/caches/transforms-3/6bcfb4f0cbf1d78e1fded7b6e0baf1ac/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:63:13-55
+598
+599        <activity
+599-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:23:9-27:75
+600            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+600-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:24:13-93
+601            android:excludeFromRecents="true"
+601-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:25:13-46
+602            android:exported="false"
+602-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:26:13-37
+603            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+603-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:27:13-72
+604        <!--
+605            Service handling Google Sign-In user revocation. For apps that do not integrate with
+606            Google Sign-In, this service will never be started.
+607        -->
+608        <service
+608-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:33:9-37:51
+609            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+609-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:34:13-89
+610            android:exported="true"
+610-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:35:13-36
+611            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+611-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:36:13-107
+612            android:visibleToInstantApps="true" />
+612-->[com.google.android.gms:play-services-auth:21.2.0] /Users/acareindore/.gradle/caches/transforms-3/5c5ded710a77476fe405aa6222723f83/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:37:13-48
+613
+614        <meta-data
+614-->[com.google.maps.android:android-maps-utils:3.8.2] /Users/acareindore/.gradle/caches/transforms-3/d08fe44d4ea0d5045bc8893a7979ff8b/transformed/jetified-android-maps-utils-3.8.2/AndroidManifest.xml:8:9-10:69
+615            android:name="com.google.android.gms.version"
+615-->[com.google.maps.android:android-maps-utils:3.8.2] /Users/acareindore/.gradle/caches/transforms-3/d08fe44d4ea0d5045bc8893a7979ff8b/transformed/jetified-android-maps-utils-3.8.2/AndroidManifest.xml:9:13-58
+616            android:value="@integer/google_play_services_version" />
+616-->[com.google.maps.android:android-maps-utils:3.8.2] /Users/acareindore/.gradle/caches/transforms-3/d08fe44d4ea0d5045bc8893a7979ff8b/transformed/jetified-android-maps-utils-3.8.2/AndroidManifest.xml:10:13-66
+617
+618        <receiver
+618-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:29:9-40:20
+619            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+619-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:30:13-78
+620            android:exported="true"
+620-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:31:13-36
+621            android:permission="com.google.android.c2dm.permission.SEND" >
+621-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:32:13-73
+622            <intent-filter>
+622-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+623                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+623-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+623-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+624            </intent-filter>
+625
+626            <meta-data
+626-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:37:13-39:40
+627                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+627-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:38:17-92
+628                android:value="true" />
+628-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:39:17-37
+629        </receiver>
+630        <!--
+631             FirebaseMessagingService performs security checks at runtime,
+632             but set to not exported to explicitly avoid allowing another app to call it.
+633        -->
+634        <service
+634-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:46:9-53:19
+635            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+635-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:47:13-82
+636            android:directBootAware="true"
+636-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:48:13-43
+637            android:exported="false" >
+637-->[com.google.firebase:firebase-messaging:23.4.1] /Users/acareindore/.gradle/caches/transforms-3/42141c13a80777e90ae8d420bf0f4283/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:49:13-37
+638            <intent-filter android:priority="-500" >
+638-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+639                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+639-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+639-->[:react-native-firebase_messaging] /Users/acareindore/OrderApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+640            </intent-filter>
+641        </service>
+642
+643        <activity
+643-->[com.google.android.gms:play-services-base:18.4.0] /Users/acareindore/.gradle/caches/transforms-3/e823c08d16f27d33bfc858f2f70694ce/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:20:9-22:45
+644            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+644-->[com.google.android.gms:play-services-base:18.4.0] /Users/acareindore/.gradle/caches/transforms-3/e823c08d16f27d33bfc858f2f70694ce/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:20:19-85
+645            android:exported="false"
+645-->[com.google.android.gms:play-services-base:18.4.0] /Users/acareindore/.gradle/caches/transforms-3/e823c08d16f27d33bfc858f2f70694ce/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:22:19-43
+646            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+646-->[com.google.android.gms:play-services-base:18.4.0] /Users/acareindore/.gradle/caches/transforms-3/e823c08d16f27d33bfc858f2f70694ce/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:21:19-78
+647        <activity android:name="com.facebook.CustomTabMainActivity" />
+647-->[com.facebook.android:facebook-common:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/877ce9c92d309c36cf876e9e4efd3b91/transformed/jetified-facebook-common-17.0.0/AndroidManifest.xml:26:9-71
+647-->[com.facebook.android:facebook-common:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/877ce9c92d309c36cf876e9e4efd3b91/transformed/jetified-facebook-common-17.0.0/AndroidManifest.xml:26:19-68
+648        <activity
+648-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:11:9-14:58
+649            android:name="zendesk.support.request.RequestActivity"
+649-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:12:13-67
+650            android:exported="false"
+650-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:13:13-37
+651            android:windowSoftInputMode="adjustResize" />
+651-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:14:13-55
+652        <activity
+652-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:15:9-18:67
+653            android:name="zendesk.support.requestlist.RequestListActivity"
+653-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:16:13-75
+654            android:exported="false"
+654-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:17:13-37
+655            android:label="@string/request_list_activity_title" />
+655-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:18:13-64
+656
+657        <receiver
+657-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:20:9-26:20
+658            android:name="zendesk.support.DeepLinkingBroadcastReceiver"
+658-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:21:13-72
+659            android:exported="false" >
+659-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:22:13-37
+660            <intent-filter>
+660-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:23:13-25:29
+661                <action android:name="zendesk.support" />
+661-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:24:17-58
+661-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:24:25-55
+662            </intent-filter>
+663        </receiver>
+664
+665        <provider
+665-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:28:9-32:40
+666            android:name="zendesk.support.SupportSdkStartupProvider"
+666-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:29:13-69
+667            android:authorities="com.orderapp.zendesk.support.SupportSdkStartupProvider"
+667-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:30:13-93
+668            android:enabled="true"
+668-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:31:13-35
+669            android:exported="false" />
+669-->[com.zendesk:support:5.1.0] /Users/acareindore/.gradle/caches/transforms-3/99ff709bbba3e47195bcf59e2af8f37f/transformed/jetified-support-5.1.0/AndroidManifest.xml:32:13-37
+670
+671        <activity
+671-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:11:9-15:69
+672            android:name="zendesk.support.guide.ViewArticleActivity"
+672-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:12:13-69
+673            android:configChanges="orientation|screenSize"
+673-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:13:13-59
+674            android:exported="false"
+674-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:14:13-37
+675            android:label="@string/zs_view_article_loading_title" />
+675-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:15:13-66
+676        <activity
+676-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:16:9-20:58
+677            android:name="zendesk.support.guide.HelpCenterActivity"
+677-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:17:13-68
+678            android:exported="false"
+678-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:18:13-37
+679            android:label="@string/support_activity_title"
+679-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:19:13-59
+680            android:windowSoftInputMode="adjustResize" />
+680-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:20:13-55
+681
+682        <provider
+682-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:22:9-26:40
+683            android:name="zendesk.support.guide.GuideSdkStartupProvider"
+683-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:23:13-73
+684            android:authorities="com.orderapp.zendesk.support.GuideSdkStartupProvider"
+684-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:24:13-91
+685            android:enabled="true"
+685-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:25:13-35
+686            android:exported="false" />
+686-->[com.zendesk:guide:1.0.9] /Users/acareindore/.gradle/caches/transforms-3/2c799f216be73210a146b08002b55922/transformed/jetified-guide-1.0.9/AndroidManifest.xml:26:13-37
+687
+688        <activity
+688-->[com.zendesk:messaging:5.2.5] /Users/acareindore/.gradle/caches/transforms-3/215bb0b7addeb074047245c54213b37b/transformed/jetified-messaging-5.2.5/AndroidManifest.xml:10:9-13:58
+689            android:name="zendesk.messaging.MessagingActivity"
+689-->[com.zendesk:messaging:5.2.5] /Users/acareindore/.gradle/caches/transforms-3/215bb0b7addeb074047245c54213b37b/transformed/jetified-messaging-5.2.5/AndroidManifest.xml:11:13-63
+690            android:exported="false"
+690-->[com.zendesk:messaging:5.2.5] /Users/acareindore/.gradle/caches/transforms-3/215bb0b7addeb074047245c54213b37b/transformed/jetified-messaging-5.2.5/AndroidManifest.xml:12:13-37
+691            android:windowSoftInputMode="adjustResize" />
+691-->[com.zendesk:messaging:5.2.5] /Users/acareindore/.gradle/caches/transforms-3/215bb0b7addeb074047245c54213b37b/transformed/jetified-messaging-5.2.5/AndroidManifest.xml:13:13-55
+692        <activity
+692-->[com.stripe:stripe-3ds2-android:6.1.8] /Users/acareindore/.gradle/caches/transforms-3/28dfd127b297af573cdbea4d12336441/transformed/jetified-stripe-3ds2-android-6.1.8/AndroidManifest.xml:8:9-11:54
+693            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+693-->[com.stripe:stripe-3ds2-android:6.1.8] /Users/acareindore/.gradle/caches/transforms-3/28dfd127b297af573cdbea4d12336441/transformed/jetified-stripe-3ds2-android-6.1.8/AndroidManifest.xml:9:13-81
+694            android:exported="false"
+694-->[com.stripe:stripe-3ds2-android:6.1.8] /Users/acareindore/.gradle/caches/transforms-3/28dfd127b297af573cdbea4d12336441/transformed/jetified-stripe-3ds2-android-6.1.8/AndroidManifest.xml:10:13-37
+695            android:theme="@style/Stripe3DS2Theme" />
+695-->[com.stripe:stripe-3ds2-android:6.1.8] /Users/acareindore/.gradle/caches/transforms-3/28dfd127b297af573cdbea4d12336441/transformed/jetified-stripe-3ds2-android-6.1.8/AndroidManifest.xml:11:13-51
+696        <!--
+697        Service for holding metadata. Cannot be instantiated.
+698        Metadata will be merged from other manifests.
+699        -->
+700        <service
+700-->[androidx.camera:camera-core:1.3.1] /Users/acareindore/.gradle/caches/transforms-3/143fb740b4c1e3b1596a54eadf3a155c/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:29:9-33:78
+701            android:name="androidx.camera.core.impl.MetadataHolderService"
+701-->[androidx.camera:camera-core:1.3.1] /Users/acareindore/.gradle/caches/transforms-3/143fb740b4c1e3b1596a54eadf3a155c/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:30:13-75
+702            android:enabled="false"
+702-->[androidx.camera:camera-core:1.3.1] /Users/acareindore/.gradle/caches/transforms-3/143fb740b4c1e3b1596a54eadf3a155c/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:31:13-36
+703            android:exported="false" />
+703-->[androidx.camera:camera-core:1.3.1] /Users/acareindore/.gradle/caches/transforms-3/143fb740b4c1e3b1596a54eadf3a155c/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:32:13-37
+704
+705        <provider
+705-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:23:9-28:39
+706            android:name="com.google.firebase.provider.FirebaseInitProvider"
+706-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:24:13-77
+707            android:authorities="com.orderapp.firebaseinitprovider"
+707-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:25:13-72
+708            android:directBootAware="true"
+708-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:26:13-43
+709            android:exported="false"
+709-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:27:13-37
+710            android:initOrder="100" />
+710-->[com.google.firebase:firebase-common:20.4.3] /Users/acareindore/.gradle/caches/transforms-3/c072f32255cf8293d7216c312c904e4a/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:28:13-36
+711
+712        <meta-data
+712-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/acareindore/.gradle/caches/transforms-3/3151bf289981977f50a86b1fd31122f6/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+713            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+713-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/acareindore/.gradle/caches/transforms-3/3151bf289981977f50a86b1fd31122f6/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+714            android:value="GlideModule" />
+714-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/acareindore/.gradle/caches/transforms-3/3151bf289981977f50a86b1fd31122f6/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+715
+716        <provider
+716-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:33:9-42:20
+717            android:name="zendesk.belvedere.BelvedereFileProvider"
+717-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:34:13-67
+718            android:authorities="com.orderapp.belvedere2.attachments"
+718-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:35:13-74
+719            android:exported="false"
+719-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:36:13-37
+720            android:grantUriPermissions="true"
+720-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:37:13-47
+721            android:readPermission="true" >
+721-->[com.zendesk.belvedere2:belvedere-core:3.0.5] /Users/acareindore/.gradle/caches/transforms-3/d37ec25a57cfaf495799689a24df73f9/transformed/jetified-belvedere-core-3.0.5/AndroidManifest.xml:38:13-42
+722            <meta-data
+722-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:78
+723                android:name="android.support.FILE_PROVIDER_PATHS"
+723-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-67
+724                android:resource="@xml/belvedere_attachment_storage_v2" />
+724-->[:react-native-image-crop-picker] /Users/acareindore/OrderApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-75
+725        </provider>
+726        <provider
+726-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:29:9-37:20
+727            android:name="androidx.startup.InitializationProvider"
+727-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:30:13-67
+728            android:authorities="com.orderapp.androidx-startup"
+728-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:31:13-68
+729            android:exported="false" >
+729-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:32:13-37
+730            <meta-data
+730-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:34:13-36:52
+731                android:name="androidx.work.WorkManagerInitializer"
+731-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:35:17-68
+732                android:value="androidx.startup" />
+732-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:36:17-49
+733            <meta-data
+733-->[androidx.emoji2:emoji2:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/980b7ac761cc9b88e2f323faec0ddcf1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+734                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+734-->[androidx.emoji2:emoji2:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/980b7ac761cc9b88e2f323faec0ddcf1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+735                android:value="androidx.startup" />
+735-->[androidx.emoji2:emoji2:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/980b7ac761cc9b88e2f323faec0ddcf1/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+736            <meta-data
+736-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/acareindore/.gradle/caches/transforms-3/3b80cfa188c8801e3e3e865bffd41e75/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+737                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+737-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/acareindore/.gradle/caches/transforms-3/3b80cfa188c8801e3e3e865bffd41e75/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+738                android:value="androidx.startup" />
+738-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/acareindore/.gradle/caches/transforms-3/3b80cfa188c8801e3e3e865bffd41e75/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+739            <meta-data
+739-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+740                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+740-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+741                android:value="androidx.startup" />
+741-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+742        </provider>
+743
+744        <service
+744-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:39:9-45:35
+745            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+745-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:40:13-88
+746            android:directBootAware="false"
+746-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:41:13-44
+747            android:enabled="@bool/enable_system_alarm_service_default"
+747-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:42:13-72
+748            android:exported="false" />
+748-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:43:13-37
+749        <service
+749-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:46:9-52:35
+750            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+750-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:47:13-84
+751            android:directBootAware="false"
+751-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:48:13-44
+752            android:enabled="@bool/enable_system_job_service_default"
+752-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:49:13-70
+753            android:exported="true"
+753-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:50:13-36
+754            android:permission="android.permission.BIND_JOB_SERVICE" />
+754-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:51:13-69
+755        <service
+755-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:53:9-59:35
+756            android:name="androidx.work.impl.foreground.SystemForegroundService"
+756-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:54:13-81
+757            android:directBootAware="false"
+757-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:55:13-44
+758            android:enabled="@bool/enable_system_foreground_service_default"
+758-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:56:13-77
+759            android:exported="false" />
+759-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:57:13-37
+760
+761        <receiver
+761-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:61:9-66:35
+762            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+762-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:62:13-88
+763            android:directBootAware="false"
+763-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:63:13-44
+764            android:enabled="true"
+764-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:64:13-35
+765            android:exported="false" />
+765-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:65:13-37
+766        <receiver
+766-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:67:9-77:20
+767            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+767-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:68:13-106
+768            android:directBootAware="false"
+768-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:69:13-44
+769            android:enabled="false"
+769-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:70:13-36
+770            android:exported="false" >
+770-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:71:13-37
+771            <intent-filter>
+771-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:73:13-76:29
+772                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+772-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:74:17-87
+772-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:74:25-84
+773                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+773-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:75:17-90
+773-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:75:25-87
+774            </intent-filter>
+775        </receiver>
+776        <receiver
+776-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:78:9-88:20
+777            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+777-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:79:13-104
+778            android:directBootAware="false"
+778-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:80:13-44
+779            android:enabled="false"
+779-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:81:13-36
+780            android:exported="false" >
+780-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:82:13-37
+781            <intent-filter>
+781-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:84:13-87:29
+782                <action android:name="android.intent.action.BATTERY_OKAY" />
+782-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:85:17-77
+782-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:85:25-74
+783                <action android:name="android.intent.action.BATTERY_LOW" />
+783-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:86:17-76
+783-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:86:25-73
+784            </intent-filter>
+785        </receiver>
+786        <receiver
+786-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:89:9-99:20
+787            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+787-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:90:13-104
+788            android:directBootAware="false"
+788-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:91:13-44
+789            android:enabled="false"
+789-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:92:13-36
+790            android:exported="false" >
+790-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:93:13-37
+791            <intent-filter>
+791-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:95:13-98:29
+792                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+792-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:96:17-83
+792-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:96:25-80
+793                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+793-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:97:17-82
+793-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:97:25-79
+794            </intent-filter>
+795        </receiver>
+796        <receiver
+796-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:100:9-109:20
+797            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+797-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:101:13-103
+798            android:directBootAware="false"
+798-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:102:13-44
+799            android:enabled="false"
+799-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:103:13-36
+800            android:exported="false" >
+800-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:104:13-37
+801            <intent-filter>
+801-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:106:13-108:29
+802                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+802-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:107:17-79
+802-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:107:25-76
+803            </intent-filter>
+804        </receiver>
+805        <receiver
+805-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:110:9-121:20
+806            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+806-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:111:13-88
+807            android:directBootAware="false"
+807-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:112:13-44
+808            android:enabled="false"
+808-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:113:13-36
+809            android:exported="false" >
+809-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:114:13-37
+810            <intent-filter>
+810-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:116:13-120:29
+811                <action android:name="android.intent.action.BOOT_COMPLETED" />
+811-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:17-79
+811-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:25-76
+812                <action android:name="android.intent.action.TIME_SET" />
+812-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:118:17-73
+812-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:118:25-70
+813                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+813-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:119:17-81
+813-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:119:25-78
+814            </intent-filter>
+815        </receiver>
+816        <receiver
+816-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:122:9-131:20
+817            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+817-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:123:13-99
+818            android:directBootAware="false"
+818-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:124:13-44
+819            android:enabled="@bool/enable_system_alarm_service_default"
+819-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:125:13-72
+820            android:exported="false" >
+820-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:126:13-37
+821            <intent-filter>
+821-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:128:13-130:29
+822                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+822-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:129:17-98
+822-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:129:25-95
+823            </intent-filter>
+824        </receiver>
+825        <receiver
+825-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:132:9-142:20
+826            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+826-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:133:13-78
+827            android:directBootAware="false"
+827-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:134:13-44
+828            android:enabled="true"
+828-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:135:13-35
+829            android:exported="true"
+829-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:136:13-36
+830            android:permission="android.permission.DUMP" >
+830-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:137:13-57
+831            <intent-filter>
+831-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:139:13-141:29
+832                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+832-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:140:17-88
+832-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:140:25-85
+833            </intent-filter>
+834        </receiver>
+835        <!--
+836         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+837         with the application context. This config is merged in with the host app's manifest,
+838         but there can only be one provider with the same authority activated at any given
+839         point; so if the end user has two or more different apps that use Facebook SDK, only the
+840         first one will be able to use the provider. To work around this problem, we use the
+841         following placeholder in the authority to identify each host application as if it was
+842         a completely different provider.
+843        -->
+844        <provider
+844-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:29:9-32:40
+845            android:name="com.facebook.internal.FacebookInitProvider"
+845-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:30:13-70
+846            android:authorities="com.orderapp.FacebookInitProvider"
+846-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:31:13-72
+847            android:exported="false" />
+847-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:32:13-37
+848
+849        <receiver
+849-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:34:9-40:20
+850            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+850-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:35:13-86
+851            android:exported="false" >
+851-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:36:13-37
+852            <intent-filter>
+852-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:37:13-39:29
+853                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+853-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:38:17-95
+853-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:38:25-92
+854            </intent-filter>
+855        </receiver>
+856        <receiver
+856-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:41:9-47:20
+857            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+857-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:42:13-118
+858            android:exported="false" >
+858-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:43:13-37
+859            <intent-filter>
+859-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:44:13-46:29
+860                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+860-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:45:17-103
+860-->[com.facebook.android:facebook-core:17.0.0] /Users/acareindore/.gradle/caches/transforms-3/f2952951045944b12cd6cba7713a48cb/transformed/jetified-facebook-core-17.0.0/AndroidManifest.xml:45:25-100
+861            </intent-filter>
+862        </receiver>
+863
+864        <service
+864-->[androidx.room:room-runtime:2.5.0] /Users/acareindore/.gradle/caches/transforms-3/059aee8ed29d3635bc96535745f99054/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+865            android:name="androidx.room.MultiInstanceInvalidationService"
+865-->[androidx.room:room-runtime:2.5.0] /Users/acareindore/.gradle/caches/transforms-3/059aee8ed29d3635bc96535745f99054/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+866            android:directBootAware="true"
+866-->[androidx.room:room-runtime:2.5.0] /Users/acareindore/.gradle/caches/transforms-3/059aee8ed29d3635bc96535745f99054/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+867            android:exported="false" />
+867-->[androidx.room:room-runtime:2.5.0] /Users/acareindore/.gradle/caches/transforms-3/059aee8ed29d3635bc96535745f99054/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+868
+869        <provider
+869-->[com.squareup.picasso:picasso:2.8] /Users/acareindore/.gradle/caches/transforms-3/4bb97f2a80b4bfd981304eb3aee1aa8e/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+870            android:name="com.squareup.picasso.PicassoProvider"
+870-->[com.squareup.picasso:picasso:2.8] /Users/acareindore/.gradle/caches/transforms-3/4bb97f2a80b4bfd981304eb3aee1aa8e/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+871            android:authorities="com.orderapp.com.squareup.picasso"
+871-->[com.squareup.picasso:picasso:2.8] /Users/acareindore/.gradle/caches/transforms-3/4bb97f2a80b4bfd981304eb3aee1aa8e/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+872            android:exported="false" />
+872-->[com.squareup.picasso:picasso:2.8] /Users/acareindore/.gradle/caches/transforms-3/4bb97f2a80b4bfd981304eb3aee1aa8e/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+873
+874        <receiver
+874-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+875            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+875-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+876            android:directBootAware="false"
+876-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+877            android:enabled="true"
+877-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+878            android:exported="true"
+878-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+879            android:permission="android.permission.DUMP" >
+879-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+880            <intent-filter>
+880-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+881                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+881-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+881-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+882            </intent-filter>
+883            <intent-filter>
+883-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+884                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+884-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+884-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+885            </intent-filter>
+886            <intent-filter>
+886-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+887                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+887-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+887-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+888            </intent-filter>
+889            <intent-filter>
+889-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+890                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+890-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+890-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/acareindore/.gradle/caches/transforms-3/c6aa5e74cfbded616707bb4dfe8469b3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+891            </intent-filter>
+892        </receiver>
+893
+894        <service
+894-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/d77aaa61b8062f298ae1729a0b603089/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+895            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+895-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/d77aaa61b8062f298ae1729a0b603089/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+896            android:exported="false" >
+896-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/d77aaa61b8062f298ae1729a0b603089/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+897            <meta-data
+897-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/d77aaa61b8062f298ae1729a0b603089/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+898                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+898-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/d77aaa61b8062f298ae1729a0b603089/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+899                android:value="cct" />
+899-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/d77aaa61b8062f298ae1729a0b603089/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+900        </service>
+901        <service
+901-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+902            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+902-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+903            android:exported="false"
+903-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+904            android:permission="android.permission.BIND_JOB_SERVICE" >
+904-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+905        </service>
+906
+907        <receiver
+907-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+908            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+908-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+909            android:exported="false" />
+909-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/acareindore/.gradle/caches/transforms-3/1ef7b7c3f498391ab8e50cbd7931a039/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+910
+911        <meta-data
+911-->[com.facebook.soloader:soloader:0.10.5] /Users/acareindore/.gradle/caches/transforms-3/a8bc4a39f05b0cfc749bf73de002f192/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+912            android:name="com.facebook.soloader.enabled"
+912-->[com.facebook.soloader:soloader:0.10.5] /Users/acareindore/.gradle/caches/transforms-3/a8bc4a39f05b0cfc749bf73de002f192/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+913            android:value="false" /> <!-- Receiver Service -->
+913-->[com.facebook.soloader:soloader:0.10.5] /Users/acareindore/.gradle/caches/transforms-3/a8bc4a39f05b0cfc749bf73de002f192/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+914        <service
+914-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:29:9-31:40
+915            android:name="app.notifee.core.ReceiverService"
+915-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:30:13-60
+916            android:exported="false" />
+916-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:31:13-37
+917
+918        <activity
+918-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:33:9-39:75
+919            android:name="app.notifee.core.NotificationReceiverActivity"
+919-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:34:13-73
+920            android:excludeFromRecents="true"
+920-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:35:13-46
+921            android:exported="true"
+921-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:36:13-36
+922            android:noHistory="true"
+922-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:37:13-37
+923            android:taskAffinity=""
+923-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:38:13-36
+924            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Foreground Service -->
+924-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:39:13-72
+925        <service
+925-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:42:9-44:40
+926            android:name="app.notifee.core.ForegroundService"
+926-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:43:13-62
+927            android:exported="false" />
+927-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:44:13-37
+928
+929        <receiver
+929-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:46:9-54:20
+930            android:name="app.notifee.core.RebootBroadcastReceiver"
+930-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:47:13-68
+931            android:exported="false" >
+931-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:48:13-37
+932            <intent-filter>
+932-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:49:13-53:29
+933                <action android:name="android.intent.action.BOOT_COMPLETED" />
+933-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:17-79
+933-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:25-76
+934                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+934-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:51:17-82
+934-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:51:25-79
+935                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+935-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:52:17-82
+935-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:52:25-79
+936            </intent-filter>
+937        </receiver>
+938        <receiver
+938-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:55:9-61:20
+939            android:name="app.notifee.core.AlarmPermissionBroadcastReceiver"
+939-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:56:13-77
+940            android:exported="true" >
+940-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:57:13-36
+941            <intent-filter>
+941-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:58:13-60:29
+942                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+942-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:59:17-107
+942-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:59:25-104
+943            </intent-filter>
+944        </receiver>
+945        <receiver
+945-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:62:9-70:20
+946            android:name="app.notifee.core.NotificationAlarmReceiver"
+946-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:63:13-70
+947            android:exported="false" >
+947-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:64:13-37
+948            <intent-filter>
+948-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:49:13-53:29
+949                <action android:name="android.intent.action.BOOT_COMPLETED" />
+949-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:17-79
+949-->[androidx.work:work-runtime:2.8.0] /Users/acareindore/.gradle/caches/transforms-3/59abff5ecf14b742a144d3bce586df8b/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:25-76
+950                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+950-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:51:17-82
+950-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:51:25-79
+951                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+951-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:52:17-82
+951-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:52:25-79
+952            </intent-filter>
+953        </receiver> <!-- Broadcast Receiver -->
+954        <receiver
+954-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:73:9-81:20
+955            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+955-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:74:13-72
+956            android:exported="false" >
+956-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:75:13-37
+957            <intent-filter>
+957-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:76:13-80:29
+958                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+958-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:77:17-85
+958-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:77:25-82
+959                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+959-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:78:17-102
+959-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:78:25-99
+960                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+960-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:79:17-108
+960-->[app.notifee:core:202108261754] /Users/acareindore/.gradle/caches/transforms-3/1fe29c090d0e6f1a632a11eacde76719/transformed/jetified-core-202108261754/AndroidManifest.xml:79:25-105
+961            </intent-filter>
+962        </receiver>
+963
+964        <activity
+964-->[com.jakewharton:process-phoenix:2.1.2] /Users/acareindore/.gradle/caches/transforms-3/4e95bf7bff870309949f2450a4fd28ca/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+965            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+965-->[com.jakewharton:process-phoenix:2.1.2] /Users/acareindore/.gradle/caches/transforms-3/4e95bf7bff870309949f2450a4fd28ca/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+966            android:exported="false"
+966-->[com.jakewharton:process-phoenix:2.1.2] /Users/acareindore/.gradle/caches/transforms-3/4e95bf7bff870309949f2450a4fd28ca/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+967            android:process=":phoenix"
+967-->[com.jakewharton:process-phoenix:2.1.2] /Users/acareindore/.gradle/caches/transforms-3/4e95bf7bff870309949f2450a4fd28ca/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+968            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+968-->[com.jakewharton:process-phoenix:2.1.2] /Users/acareindore/.gradle/caches/transforms-3/4e95bf7bff870309949f2450a4fd28ca/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+969
+970        <meta-data
+970-->[com.google.android.instantapps:instantapps:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/5e34d8c0d9a6d10708203fa304bfa932/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+971            android:name="aia-compat-api-min-version"
+971-->[com.google.android.instantapps:instantapps:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/5e34d8c0d9a6d10708203fa304bfa932/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
+972            android:value="1" />
+972-->[com.google.android.instantapps:instantapps:1.1.0] /Users/acareindore/.gradle/caches/transforms-3/5e34d8c0d9a6d10708203fa304bfa932/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+973    </application>
+974
+975</manifest>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.orderapp-mergeDebugResources-124:/values-w640dp-v13/values-w640dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/acareindore/.gradle/caches/transforms-3/ef10ec07d40dd1ef70e7cbb365aae335/transformed/jetified-belvedere-3.0.5/res/values-w640dp-v13/values-w640dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "67",
+                        "endOffsets": "118"
+                    }
+                }
+            ]
+        }
+    ]
+}

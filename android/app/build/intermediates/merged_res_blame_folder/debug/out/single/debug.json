@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/layout_launch_screen.xml.flat",
+        "source": "com.orderapp-main-128:/layout/launch_screen.xml"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.orderapp-main-128:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xxxhdpi_ic_launcher5.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xxxhdpi/ic_launcher5.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable-xxhdpi_splash.png.flat",
+        "source": "com.orderapp-main-128:/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable-mdpi_splash.png.flat",
+        "source": "com.orderapp-main-128:/drawable-mdpi/splash.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-hdpi_ic_launcher2.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-hdpi/ic_launcher2.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xhdpi_ic_launcher3.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xhdpi/ic_launcher3.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-mdpi_ic_launcher2.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-mdpi/ic_launcher2.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/mipmap-xxhdpi_ic_launcher4.png.flat",
+        "source": "com.orderapp-main-128:/mipmap-xxhdpi/ic_launcher4.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/raw_notification.wav.flat",
+        "source": "com.orderapp-main-128:/raw/notification.wav"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable-xhdpi_splash.png.flat",
+        "source": "com.orderapp-main-128:/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable_background_splash.xml.flat",
+        "source": "com.orderapp-main-128:/drawable/background_splash.xml"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable-hdpi_splash.png.flat",
+        "source": "com.orderapp-main-128:/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "com.orderapp-merged_res-126:/drawable-xxxhdpi_splash.png.flat",
+        "source": "com.orderapp-main-128:/drawable-xxxhdpi/splash.png"
+    }
+]

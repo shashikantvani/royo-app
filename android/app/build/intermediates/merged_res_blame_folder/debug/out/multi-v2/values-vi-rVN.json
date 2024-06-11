@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.orderapp-mergeDebugResources-124:/values-vi-rVN/values-vi-rVN.xml",
+            "map": [
+                {
+                    "source": "/Users/acareindore/.gradle/caches/transforms-3/28dfd127b297af573cdbea4d12336441/transformed/jetified-stripe-3ds2-android-6.1.8/res/values-vi-rVN/values-vi-rVN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,256,325,392,453,529",
+                        "endColumns": "94,105,68,66,60,75,67",
+                        "endOffsets": "145,251,320,387,448,524,592"
+                    }
+                }
+            ]
+        }
+    ]
+}

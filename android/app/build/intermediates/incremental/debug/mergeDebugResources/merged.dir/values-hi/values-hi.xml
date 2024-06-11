@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d नई सूचनाएं</item>
+    <item quantity="other">%d नई सूचनाएं</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string gender="unknown" name="alert_description">अलर्ट</string>
+    <string name="articles_list_fragment_error_message">लेख प्राप्त करने में विफल</string>
+    <string name="articles_list_fragment_no_articles_found">कोई लेख नहीं मिला</string>
+    <string name="ask_request_list_failed_request_message">संदेश भेजना विफल रहा</string>
+    <string name="belvedere_dialog_camera">कैमरा</string>
+    <string name="belvedere_dialog_gallery">गैलरी</string>
+    <string name="belvedere_fam_desc_collapse_fam">फ़्लोटिंग क्रियाएं संक्षिप्त करें मेनू</string>
+    <string name="belvedere_fam_desc_expand_fam">फ़्लोटिंग क्रियाएं विस्तारित करें मेनू</string>
+    <string name="belvedere_fam_desc_open_gallery">गैलरी से फ़ाइल आयात करें</string>
+    <string name="belvedere_fam_desc_open_google_photos">छवि को Google फ़ोटो से आयात करें</string>
+    <string name="belvedere_image_stream_file_too_large">फ़ाइल बहुत बड़ी है</string>
+    <string name="belvedere_image_stream_title">फ़ोटो लाइब्रेरी</string>
+    <string name="belvedere_image_stream_unknown_app">अज्ञात</string>
+    <string name="belvedere_navigate_to_settings">सेटिंग्स</string>
+    <string name="belvedere_permissions_denied">अनुमतियां अस्वीकृत</string>
+    <string name="belvedere_permissions_rationale">अटैचमेंट भेजने के लिए आपको अपनी सेटिंग में अनुमतियों की अनुमति देनी होगी</string>
+    <string name="belvedere_stream_item_camera_tile_desc">कैमरा से छवि आयात करें</string>
+    <string name="belvedere_stream_item_select_file_desc">फ़ाइल %s चुनें</string>
+    <string name="belvedere_stream_item_select_image_desc">छवि %s चुनें</string>
+    <string name="belvedere_stream_item_unselect_file_desc">फ़ाइल %s का चयन रद्द करेंं</string>
+    <string name="belvedere_stream_item_unselect_image_desc">छवि %s का चयन रद्द करेंं</string>
+    <string name="belvedere_toolbar_desc_collapse">छवि पिकर बंद करें</string>
+    <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बॉटम शीट को बड़ा करें</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_clicked">खींचकर छोड़ने वाले हैंडल पर दो बार टैप किया गया</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"जवाब दें"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"वीडियो"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"अस्वीकार करें"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"कॉल काटें"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"आने वाला (इनकमिंग) कॉल"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"पहले से जारी कॉल"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"इनकमिंग कॉल को स्क्रीन किया जा रहा है"</string>
+    <string gender="unknown" name="catalyst_dev_menu_header">रिएक्शन नेटिव डेवलपर मेनू (%1$s)</string>
+    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s चला रहे हैं</string>
+    <string name="categories_list_fragment_error_message">श्रेणियां प्राप्त करने में विफल</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string msgid="406453423630273620" name="close_drawer">"नेविगेशन मेन्यू बंद करें"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"शीट बंद करें"</string>
+    <string msgid="5389587048670450460" name="collapsed">"छोटा किया गया"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> पर जाएँ और ऊपर दिया गया कोड डालें.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">चित्र डाउनलोड करते समय अनपेक्षित त्रुटि हुई.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView लॉग इन के लिए इंटरनेट अनुमति आवश्यक है</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest गलती</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">पसंद किया</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">लाइक करें</string>
+    <string gender="unknown" name="com_facebook_loading">लोड हो रहा है...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">कैंसल करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">लॉग इन</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook के साथ जारी रखें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebook से लॉग इन करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">लॉग आउट करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">लॉग आउट करें</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">इस रूप में लॉग इन हैं: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebook का उपयोग करके लॉग इन किया है</string>
+    <string gender="unknown" name="com_facebook_send_button_text">भेजें</string>
+    <string gender="unknown" name="com_facebook_share_button_text">शेयर करें</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">अपने खाते से कनेक्ट करने के लिए, अपने मोबाइल डिवाइस पर Facebook एप्लिकेशन खोलें और सूचनाएँ जाँचें.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- या -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">आप नहीं हैं?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$s के रूप में जारी रखें</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">लॉग इन कन्फ़र्म करें</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">नियंत्रण आपके पास है - चुनें कि आप एप्लिकेशन के साथ कौन सी जानकारी साझा करना चाहते हैं.</string>
+    <string gender="unknown" name="combobox_description">कॉम्बो बॉक्स</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">चालू करें</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">जब तक आप Google Play सेवाएं चालू नहीं करते, %1$s काम नहीं करेगा.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play सेवाएं चालू करें</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">इंस्टॉल करें</string>
+    <string name="common_google_play_services_install_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play सेवाएं इंस्टॉल करें</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवाएं उपलब्ध हैं</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाओं से जुड़ी गड़बड़ी</string>
+    <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">अपडेट करें</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play सेवाओं को अपडेट करें</string>
+    <string name="common_google_play_services_updating_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा.</string>
+    <string name="common_open_on_phone">फ़ोन पर खोलें</string>
+    <string name="common_signin_button_text">साइन इन करें</string>
+    <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
+    <string name="contact_fragment_title">हमसे संपर्क करें</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"लिंक क्लिपबोर्ड पर कॉपी किया गया"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"अमान्य इनपुट"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"पॉप-अप विंडो"</string>
+    <string msgid="4057925834421392736" name="dialog">"डायलॉग"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"ड्रॉपडाउन मेन्यू"</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string name="error_msg_invalid_email">मान्य ईमेल पता दर्ज करें</string>
+    <string name="error_msg_invalid_message">अपना संदेश लिखें</string>
+    <string name="error_msg_invalid_name">अपना पूरा नाम दर्ज करें</string>
+    <string msgid="5974471714631304645" name="expanded">"बड़ा किया गया"</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक कॉपी करें"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउज़र में खोलें"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक शेयर करें"</string>
+    <string name="gpay_logo_description">Google Pay</string>
+    <string gender="unknown" name="header_description">शीर्षक</string>
+    <string name="help_search_no_results_label">इसके लिए कोई परिणाम नहीं</string>
+    <string name="help_see_all_articles_label">सभी लेख देखें</string>
+    <string name="help_see_all_n_articles_label">सभी %d लेख देखें</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string gender="unknown" name="image_description">फ़ोटो</string>
+    <string gender="unknown" name="imagebutton_description">बटन, फ़ोटो</string>
+    <string msgid="6827826412747255547" name="in_progress">"जारी है"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"कुछ विकल्पों को चुना गया"</string>
+    <string name="item_view_role_description">टैब</string>
+    <string gender="unknown" name="link_description">लिंक</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string gender="unknown" name="menu_description">मेनू</string>
+    <string gender="unknown" name="menubar_description">मेनू बार</string>
+    <string gender="unknown" name="menuitem_description">मेनू आइटम</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
+    <string msgid="542007171693138492" name="navigation_menu">"नेविगेशन मेन्यू"</string>
+    <string name="network_activity_no_connectivity">कोई कनेक्शन नहीं</string>
+    <string msgid="6610465462668679431" name="not_selected">"नहीं चुना गया"</string>
+    <string msgid="875452955155264703" name="off">"बंद है"</string>
+    <string msgid="8655164131929253426" name="on">"चालू है"</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="places_autocomplete_clear_button">खोज इनपुट मिटाएं</string>
+    <string name="places_autocomplete_label">कोई जगह चुनें</string>
+    <string name="places_autocomplete_no_results_for_query">%1$s के लिए कोई नतीजे नहीं मिले</string>
+    <string name="places_autocomplete_search_hint">खोजें</string>
+    <string name="places_cancel">रद्द करें</string>
+    <string name="places_powered_by_google">Google की ओर से दिखाई जाने वाली इमेज</string>
+    <string name="places_search_error">खोज नतीजे लोड नहीं किए जा सकते.</string>
+    <string name="places_try_again">फिर से कोशिश करें</string>
+    <string gender="unknown" name="progressbar_description">प्रोग्रेस बार</string>
+    <string gender="unknown" name="radiogroup_description">रेडियो ग्रुप</string>
+    <string msgid="5941395253238309765" name="range_end">"रेंज की सीमा"</string>
+    <string msgid="7097486360902471446" name="range_start">"रेंज की शुरुआत"</string>
+    <string name="request_attachment_generic_unknown_app">अज्ञात</string>
+    <string name="request_dialog_body_unsaved_changes">वापस जाने से आपका संदेश हट जाएगा. क्य़ा आप वाकई रद्द करना चाहते हैं?</string>
+    <string name="request_dialog_button_label_cancel">रद्द करें</string>
+    <string name="request_dialog_button_label_delete">हटाएँ</string>
+    <string name="request_dialog_title_unsaved_changes">संदेश नहीं भेजा गया</string>
+    <string name="request_email_entry_hint">ईमेल</string>
+    <string name="request_error_create_request">अनुरोध बनाना विफल रहा</string>
+    <string name="request_error_load_comments">टिप्पणियां लोड करना विफल</string>
+    <string name="request_file_attachment_download_in_progress">फ़ाइल डाउनलोड प्रगति पर है</string>
+    <string name="request_list_activity_title">मेरे टिकट</string>
+    <string name="request_list_empty_start_conversation">बातचीत शुरु करें</string>
+    <string name="request_list_empty_text">इस ऐप से शुरु की गई बातचीत यहाँ दिखाई देगी.</string>
+    <string name="request_list_fragment_error_message">टिकट प्राप्त करने में विफल</string>
+    <string name="request_list_me">मैं</string>
+    <string name="request_list_re">ज: %s</string>
+    <string name="request_list_ticket_closed">टिकट बंद कर दिया गया</string>
+    <string name="request_menu_button_label_add_attachments">अनुलग्नक जोड़ें</string>
+    <string name="request_menu_button_label_send">भेजें</string>
+    <string name="request_message_date_today">आज</string>
+    <string name="request_message_date_yesterday">बीता हुआ कल</string>
+    <string name="request_message_entry_hint">संदेश</string>
+    <string name="request_message_status_delivered">वितरित किया गया</string>
+    <string name="request_messages_status_error">संदेश विफल रहा. पुनः प्रयास करने के लिए टैप करें</string>
+    <string name="request_name_entry_hint">नाम</string>
+    <string name="request_retry_dialog_delete_message">संदेश हटाएँ</string>
+    <string name="request_retry_dialog_retry">दोबारा भेजने का प्रयास करें</string>
+    <string name="request_system_message_closed_ticket">यह बातचीत बंद कर दी गई है.</string>
+    <string name="request_toolbar_last_reply">अंतिम जवाब %s</string>
+    <string name="request_write_a_message">कोई संदेश लिखें</string>
+    <string name="retry_view_button_label">पुनः प्रयास करें</string>
+    <string gender="unknown" name="rn_tab_description">टैब</string>
+    <string gender="unknown" name="scrollbar_description">स्क्रॉल बार</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="sections_list_fragment_error_message">अनुभाग प्राप्त करने में विफल</string>
+    <string msgid="6043586758067023" name="selected">"चुना गया"</string>
+    <string gender="unknown" name="spinbutton_description">स्पिन बटन</string>
+    <string gender="unknown" name="state_busy_description">व्यस्त</string>
+    <string gender="unknown" name="state_collapsed_description">छोटा किया गया</string>
+    <string gender="unknown" name="state_expanded_description">बड़ा किया गया</string>
+    <string gender="unknown" name="state_mixed_description">मिक्स</string>
+    <string gender="unknown" name="state_off_description">बंद है</string>
+    <string gender="unknown" name="state_on_description">चालू है</string>
+    <string gender="unknown" name="state_unselected_description">नहीं चुने गए</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stripe_hcaptcha_loading_text">सत्यापित करना आप मानव हैं</string>
+    <string gender="unknown" name="summary_description">सारांश</string>
+    <string name="support_activity_title">सहायता</string>
+    <string name="support_conversations_menu">बातचीत</string>
+    <string msgid="2561197295334830845" name="switch_role">"स्विच करें"</string>
+    <string msgid="1672349317127674378" name="tab">"टैब"</string>
+    <string gender="unknown" name="tablist_description">टैब लिस्ट</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> प्रतिशत."</string>
+    <string gender="unknown" name="timer_description">टाइमर</string>
+    <string gender="unknown" name="toolbar_description">टूल बार</string>
+    <string name="view_article_attachments_error">अनुलग्नकों को लाने में विफल</string>
+    <string name="view_article_vote_prompt">क्या यह आलेख मददगार था?</string>
+    <string name="wallet_buy_button_place_holder">Google से खरीदें</string>
+    <string name="zg_general_contact_us_button_label_accessibility">हमसे संपर्क करें</string>
+    <string name="zg_general_no_connection_message">कनेक्शन नहीं है</string>
+    <string name="zs_engine_greeting_message">संदेश टाइप करें. आपके लिए कोई ऐसा व्यक्ति ढूँढा जाएगा जो आपकी मदद कर सके.</string>
+    <string name="zs_engine_message_retry_button">फिर से कोशिश करें</string>
+    <string name="zs_engine_message_send_error_message">गड़बड़ी होने की वजह से आपका मैसेज नहीं भेजा जा सका. कृपया बाद में फिर से कोशिश करें.</string>
+    <string name="zs_engine_request_created_conversations_enabled_message">धन्यवाद. टीम को संदेश भेज दिया गया है. आप यह संदेश यहां देख सकते हैं और उसमें अतिरिक्त जानकारी भी जोड़ सकते हैं:</string>
+    <string name="zs_engine_request_created_conversations_off_message">धन्यवाद. टीम को संदेश भेज दिया गया है. अगर जवाब देने की ज़रूरत होगी, तो वे आपस ईमेल के ज़रिये संपर्क करेंगे.</string>
+    <string name="zs_engine_request_created_request_list_button">संदेश देखें</string>
+    <string name="zs_engine_request_creation_email_prompt_hint">अपना ईमेल डालें...</string>
+    <string name="zs_engine_request_creation_email_prompt_message">अगर जवाब देना ज़रूरी होगा, तो कोई न कोई आपसे ईमेल के ज़रिये संपर्क करेगा. आपका ईमेल पता क्या है?</string>
+    <string name="zs_engine_request_creation_email_validation_failed_message">आपने जो ईमेल पता डाला है, वह गलत है. कृपया कोई मान्य ईमेल पता डालें.</string>
+    <string name="zs_general_contact_us_button_label_accessibility">हमसे संपर्क करें</string>
+    <string name="zs_general_referrer_logo_label_accessibility">Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility">सहायता केंद्र लोड किया गया</string>
+    <string name="zs_help_center_search_loaded_accessibility">खोज परिणाम लोड किए गए</string>
+    <string name="zs_request_announce_comment_created_accessibility">%s पाठ वाली टिप्पणी भेजी गई.</string>
+    <string name="zs_request_announce_comment_failed_accessibility">%s पाठ वाली टिप्पणी बनाने में असमर्थ.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility">टिप्पणियां लोड की गईं.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility">%s नाम वाली फ़ाइल अनुलग्नित.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility">%s नाम वाला अनुलग्नक निकालें.</string>
+    <string name="zs_request_attachment_indicator_accessibility">कोई अनुलग्नक चुनें.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">%d अनुलग्नक चुने गए.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">कोई अनुलग्नक नहीं चुना गया.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">एक अनुलग्नक चुना गया.</string>
+    <string name="zs_request_contact_option_leave_a_message">एक संदेश छोड़ें</string>
+    <string name="zs_request_list_content_load_failed_accessibility">सहायता टिकट लोड होने में विफल</string>
+    <string name="zs_request_list_content_loaded_accessibility">सहायता टिकट लोड किए गए</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility">कोई सहायता टिकट नहीं</string>
+    <string name="zs_request_list_content_loading_accessibility">सहायता टिकट लोड हो रहे हैं</string>
+    <string name="zs_request_message_agent_file_accessibility">%s नाम वाला एजेंट फ़ाइल अनुलग्नक.</string>
+    <string name="zs_request_message_agent_image_accessibility">%s नाम वाला एजेंट छवि अनुलग्नक.</string>
+    <string name="zs_request_message_agent_sent_accessibility">%1$s को %2$s द्वारा भेजा गया.</string>
+    <string name="zs_request_message_agent_text_accessibility">एजेंट संदेश %s.</string>
+    <string name="zs_request_message_user_error_accessibility">भेजने में विफल. विकल्पों के लिए टैप करें.</string>
+    <string name="zs_request_message_user_file_accessibility">%s नाम वाली फ़ाइल.</string>
+    <string name="zs_request_message_user_image_accessibility">%s नाम वाली छवि.</string>
+    <string name="zs_request_message_user_sent_accessibility">%s बजे आपके द्वारा भेजा गया</string>
+    <string name="zs_request_message_user_text_accessibility">संदेश %s.</string>
+    <string name="zs_request_toolbar_accessibility">%1$s को %2$s द्वारा अंतिम जवाब .</string>
+    <string name="zs_view_article_error">आलेख फैच करना विफल रहा</string>
+    <string name="zs_view_article_loaded_accessibility">%s लेख लोड किया गया</string>
+    <string name="zs_view_article_vote_no_accessibility">कोई वोट नहीं</string>
+    <string name="zs_view_article_vote_no_remove_accessibility">हां वाला वोट निकालें</string>
+    <string name="zs_view_article_vote_yes_accessibility">हां वाला वोट</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility">नहीं वाला वोट निकालें</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce">वोट विफल</string>
+    <string name="zs_view_article_voted_no_accessibility_announce">नहीं पर वोट किया गया</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce">हां पर वोट किया गया</string>
+    <string name="zui_attachment_indicator_accessibility">कोई अनुलग्नक चुनें</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility">%d अनुलग्नक चुने गए हैं</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility">कोई अनुलग्नक नहीं चुना गया है</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility">एक अनुलग्नक चुना गया है</string>
+    <string name="zui_bot_label">बॉट</string>
+    <string name="zui_button_label_no">नहीं</string>
+    <string name="zui_button_label_yes">हाँ</string>
+    <string name="zui_cell_text_suggested_article_header">यहां आलेख है, जिससे आपको सहायता मिल सकती है:</string>
+    <string name="zui_cell_text_suggested_articles_header">यहाँ कुछ ऐसे आलेख दिए गए हैं, जिनसे सहायता मिल सकती है:</string>
+    <string name="zui_default_bot_name">Answer Bot</string>
+    <string name="zui_dialog_email_error">अमान्य ईमेल</string>
+    <string name="zui_dialog_email_hint">ईमेल पता</string>
+    <string name="zui_failed_message_copy">कॉपी करें</string>
+    <string name="zui_failed_message_delete">हटाएं</string>
+    <string name="zui_failed_message_retry">दोबारा कोशिश करें</string>
+    <string name="zui_hint_type_message">एक संदेश टाइप करें...</string>
+    <string name="zui_label_connecting">कनेक्ट किया जा रहा है...</string>
+    <string name="zui_label_dialog_delete_btn">संदेश हटाएं</string>
+    <string name="zui_label_dialog_retry_btn">दोबारा भेजने की कोशिश करें</string>
+    <string name="zui_label_failed">विफल रहा</string>
+    <string name="zui_label_reconnecting">फिर से कनेक्ट हो रहा है...</string>
+    <string name="zui_label_reconnecting_failed">कनेक्शन नहीं हो सका.</string>
+    <string name="zui_label_send">भेजें</string>
+    <string name="zui_label_sent">भेजा गया</string>
+    <string name="zui_label_tap_retry">दुबारा कोशिश करने के लिए टैप करें</string>
+    <string name="zui_message_log_article_opened_formatter">%1$s खुला हुआ आलेख \'%2$s\'</string>
+    <string name="zui_message_log_article_suggestion_message">मुझे ये आलेख मिले:</string>
+    <string name="zui_message_log_attachment_sending_failed">अनुलग्नक नहीं भेजा जा सका</string>
+    <string name="zui_message_log_default_visitor_name">दर्शक</string>
+    <string name="zui_message_log_message_attachment_type_not_supported">इस प्रकार का अनुलग्नक नहीं भेजा जा सकता</string>
+    <string name="zui_message_log_message_attachments_not_supported">अनुलग्नक की सुविधा नहीं है</string>
+    <string name="zui_message_log_message_failed_to_send">[भेजा नहीं जा सका]</string>
+    <string name="zui_message_log_message_file_exceeds_max_size">फ़ाइल का ज़्यादा से ज़्यादा आकार (%1$s) होना चाहिए और वह पार हो चुका है</string>
+    <string name="zui_message_log_transfer_option_selection_formatter">%1$s चुना गया %2$s</string>
+    <string name="zui_retry_button_label">दोबारा कोशिश करें</string>
+    <string name="zui_toolbar_title">हमसे संपर्क करें</string>
+    <string name="zui_unable_open_file">फ़ाइल नहीं खोल पा रहे.</string>
+</resources>

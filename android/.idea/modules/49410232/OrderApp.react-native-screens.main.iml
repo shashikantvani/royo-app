@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-screens/cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-screens/cpp" type="native-Source-root" />
+    </content>
+    <content url="file://$USER_HOME$/.gradle/caches/transforms-3/64cc0f09482b7eba658e985cab9ea8b8/transformed/jetified-react-android-0.73.6-debug/prefab/modules/jsi/include">
+      <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-3/64cc0f09482b7eba658e985cab9ea8b8/transformed/jetified-react-android-0.73.6-debug/prefab/modules/jsi/include" type="native-header-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-screens/android/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-screens/android/src/main/cpp" type="native-Source-root" />
+    </content>
+  </component>
+</module>
